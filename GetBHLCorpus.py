@@ -22,14 +22,29 @@ def getItemIDs():
 				itemids_dict[titleid]=set()
 			itemids_dict[titleid].add(itemid)
 
+
+def getVertebrateTitleIDs():
+	global vertebratetitleids
+	inp=open('subject.txt','r')
+	for line in inp:
+		if "TitleID" not in line:
+			data=line.split("\t")
+			#TitleID	Subject	CreationDate
+			titleid=data[0]
+			subject=data[1]
+			if "Vertebrate" in subject:
+				print "yes"
+				vertebratetitleids.add(titleid.strip())
+
 def main():
 	global titleids
 	global itemids_dict
 	getTitleIDs()
 	getItemIDs()
+	getVertebrateTitleIDs()
 	f=open('BHLCorpus.txt','w')
 
-	for titleid in titleids:
+	for titleid in vertebratetitleids:
 		f.write("TitleID:  "+str(titleid)+"\n")
 		for item in itemids_dict[titleid]:
 			f.write("ItemID:  "+str(item)+"\n")
@@ -50,6 +65,7 @@ if __name__ == "__main__":
 	import nltk
 	titleids=set()
 	itemids_dict=dict()
+	vertebratetitleids=set()
 	main()
 
 
