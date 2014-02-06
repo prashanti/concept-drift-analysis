@@ -1,0 +1,3225 @@
+CARO:0000000	anatomical entity
+CARO:0000003	anatomical structure
+CARO:0000004	portion of organism substance
+CARO:0000005	anatomical space
+CARO:0000006	material anatomical entity
+CARO:0000007	immaterial anatomical entity
+CARO:0000008	anatomical line
+CARO:0000009	anatomical point
+CARO:0000010	anatomical surface
+CARO:0000011	anatomical system
+CARO:0000012	multi-cellular organism
+CARO:0000013	cell
+CARO:0000014	cell component
+CARO:0000019	compound organ component
+CARO:0000021	simple organ
+CARO:0000024	compound organ
+CARO:0000027	male organism
+CARO:0000028	female organism
+CARO:0000029	hermaphroditic organism
+CARO:0000030	asexual organism
+CARO:0000032	organism subdivision
+CARO:0000040	acellular anatomical structure
+CARO:0000041	anatomical cluster
+CARO:0000042	extraembryonic structure
+CARO:0000043	tissue
+CARO:0000045	sequential hermaphroditic organism
+CARO:0000046	synchronous hermaphroditic organism
+CARO:0000048	gonochoristic organism
+CARO:0000049	protandrous hermaphroditic organism
+CARO:0000050	protogynous hermaphroditic organism
+CARO:0000054	anatomical group
+CARO:0000055	multi-tissue structure
+CARO:0000062	cell space
+CARO:0000063	portion of cell substance
+CARO:0000064	single cell organism
+CARO:0000065	basal lamina
+CARO:0000066	epithelium
+CARO:0000067	simple cuboidal epithelium
+CARO:0000068	simple columnar epithelium
+CARO:0000069	multilaminar epithelium
+CARO:0000070	simple squamous epithelium
+CARO:0000071	atypical epithelium
+CARO:0000072	cavitated compound organ
+CARO:0000073	unilaminar epithelium
+CARO:0000074	solid compound organ
+CARO:0000077	epithelial cell
+CARO:0001000	multi-cell-component structure
+CARO:0001001	neuron projection bundle
+CARO:0001500	neuron projection bundle segment
+CARO:0001501	neuron projection bundle subsegment
+CL:0000003	native cell
+CL:0000008	migratory cranial neural crest cell
+CL:0000055	non-terminally differentiated cell
+CL:0000058	chondroblast
+CL:0000059	ameloblast
+CL:0000060	odontoblast
+CL:0000061	cementoblast
+CL:0000062	osteoblast
+CL:0000134	mesenchymal cell
+CL:0000137	osteocyte
+CL:0000138	chondrocyte
+CL:0000140	odontocyte
+CL:0000141	cementocyte
+CL:0000151	secretory cell
+CL:0000222	mesodermal cell
+CL:0000333	migratory neural crest cell
+CL:0000742	periarticular chondrocyte
+CL:0000743	hypertrophic chondrocyte
+CL:0001035	bone cell
+CL:0001039	terminally differentiated osteoblast
+CL:0001040	non-terminally differentiated osteoblast
+CL:0002320	connective tissue cell
+CL:0002321	embryonic cell
+CL:0007000	preameloblast
+CL:0007001	skeletogenic cell
+CL:0007002	precementoblast
+CL:0007003	preodontoblast
+CL:0007004	premigratory neural crest cell
+CL:0007005	notochordal cell
+CL:0007006	chordamesodermal cell
+CL:0007007	notochordal sheath cell
+CL:0007008	notochordal vacuole cell
+CL:0007009	prechondroblast
+CL:0007010	preosteoblast
+CL:0007012	non-terminally differentiated odontoblast
+CL:0007013	terminally differentiated odontoblast
+GO:0001503	ossification
+GO:0001649	osteoblast differentiation
+GO:0001957	intramembranous ossification
+GO:0001958	endochondral ossification
+GO:0008150	biological_process
+GO:0030282	bone mineralization
+GO:0031214	biomineral tissue development
+GO:0032940	secretion by cell
+GO:0035630	bone mineralization involved in bone maturation
+GO:0036072	direct ossification
+GO:0036073	perichondral ossification
+GO:0036074	metaplastic ossification
+GO:0036075	replacement ossification
+GO:0036076	ligamentous ossification
+GO:0036077	intratendonous ossification
+GO:0043931	ossification involved in bone maturation
+GO:0060348	bone development
+GO:0060349	bone morphogenesis
+GO:0060350	endochondral bone morphogenesis
+GO:0070977	bone maturation
+PATO:0000001	quality
+PATO:0000014	color
+PATO:0001448	ossified
+PATO:0001449	cartilaginous
+TAO:0000000	Brachet's cleft
+TAO:0000001	Kupffer's vesicle
+TAO:0000003	adaxial cell
+TAO:0000004	anterior axial hypoblast
+TAO:0000005	artery
+TAO:0000006	ball
+TAO:0000007	blood
+TAO:0000008	brain
+TAO:0000009	cardiac ventricle
+TAO:0000010	cardiovascular system
+TAO:0000011	caudal artery
+TAO:0000012	central nervous system
+TAO:0000013	cranial ganglia
+TAO:0000014	dorsal aorta
+TAO:0000015	dermopalatine
+TAO:0000016	ectoderm
+TAO:0000017	endoderm
+TAO:0000018	epiblast
+TAO:0000019	epiphysis
+TAO:0000022	floor plate
+TAO:0000023	forerunner cell group
+TAO:0000024	retinal ganglion cell layer
+TAO:0000026	hatching gland
+TAO:0000028	heart primordium
+TAO:0000029	hindbrain
+TAO:0000030	macula utricle
+TAO:0000031	hypochord
+TAO:0000032	hypothalamus
+TAO:0000033	intermediate cell mass of mesoderm
+TAO:0000034	lateral line system
+TAO:0000035	lens
+TAO:0000036	liver and biliary system
+TAO:0000038	margin
+TAO:0000039	median axial vein
+TAO:0000040	median fin fold
+TAO:0000041	mesoderm
+TAO:0000042	midbrain hindbrain boundary
+TAO:0000043	muscle pioneer somite 1
+TAO:0000044	myotome somite 14
+TAO:0000045	neural crest
+TAO:0000046	retinal neural layer
+TAO:0000047	peripheral olfactory organ
+TAO:0000048	olfactory placode
+TAO:0000049	optic recess
+TAO:0000050	optic vesicle
+TAO:0000051	otic vesicle
+TAO:0000052	dorsal actinotrichium
+TAO:0000053	presumptive segmental plate
+TAO:0000054	pericardial sac
+TAO:0000056	pharynx
+TAO:0000058	polster
+TAO:0000059	postoptic commissure
+TAO:0000060	prechordal plate
+TAO:0000062	presumptive forebrain
+TAO:0000063	presumptive neural plate
+TAO:0000064	presumptive pigmented epithelium
+TAO:0000066	proctodeum
+TAO:0000067	pronephric mesoderm
+TAO:0000068	proneural cluster
+TAO:0000069	rhombomere 6
+TAO:0000070	sensory axons peripheral
+TAO:0000071	shield
+TAO:0000072	somite 1
+TAO:0000073	somite 5
+TAO:0000074	somite 26
+TAO:0000075	spinal cord
+TAO:0000076	swim bladder
+TAO:0000077	tail bud
+TAO:0000078	ventral actinotrichium
+TAO:0000079	telencephalon
+TAO:0000080	trigeminal neural crest
+TAO:0000081	trunk mesenchyme
+TAO:0000082	vein
+TAO:0000083	ventral mesoderm
+TAO:0000084	yolk
+TAO:0000085	apical ectodermal ridge pectoral fin bud
+TAO:0000086	EVL
+TAO:0000088	YSL
+TAO:0000089	actinotrichium
+TAO:0000090	apical ectodermal ridge dorsal fin
+TAO:0000091	axial chorda mesoderm
+TAO:0000093	blastomere
+TAO:0000094	blood island
+TAO:0000095	gill arch 1-5 skeleton
+TAO:0000096	cardinal system
+TAO:0000097	carotid artery
+TAO:0000098	proliferative region
+TAO:0000099	brain vasculature
+TAO:0000100	cerebellum
+TAO:0000101	diencephalon
+TAO:0000102	dorsal fin fold
+TAO:0000103	supramaxilla
+TAO:0000104	suprapreopercle
+TAO:0000105	epidermis
+TAO:0000106	extension
+TAO:0000107	eye
+TAO:0000109	forebrain
+TAO:0000110	fourth ventricle
+TAO:0000111	germ ring
+TAO:0000112	gut
+TAO:0000113	head mesenchyme
+TAO:0000114	heart
+TAO:0000115	heart rudiment
+TAO:0000116	macula lagena
+TAO:0000117	hypoblast
+TAO:0000118	hypophysis
+TAO:0000119	retinal inner nuclear layer
+TAO:0000120	lateral line ganglion
+TAO:0000121	lateral plate mesoderm
+TAO:0000122	lens placode
+TAO:0000123	liver
+TAO:0000124	liver primordium
+TAO:0000125	mandibular lateral line neuromast
+TAO:0000127	antorbital
+TAO:0000128	midbrain
+TAO:0000130	olfactory pit
+TAO:0000131	neural keel
+TAO:0000132	neural plate
+TAO:0000133	neural rod
+TAO:0000136	otic lateral line neuromast
+TAO:0000137	optic stalk
+TAO:0000138	otic placode
+TAO:0000139	immature otolith
+TAO:0000140	pancreas
+TAO:0000141	pectoral fin bud
+TAO:0000142	peripheral nervous system
+TAO:0000143	retinal photoreceptor layer
+TAO:0000144	retinal pigmented epithelium
+TAO:0000145	CNS tracts and commissures
+TAO:0000146	presumptive brain
+TAO:0000147	presumptive epidermis
+TAO:0000148	presumptive midbrain
+TAO:0000149	primitive heart tube
+TAO:0000150	pronephric duct
+TAO:0000151	pronephros
+TAO:0000152	retina
+TAO:0000153	rhombomere 8
+TAO:0000154	sinus venosus
+TAO:0000155	somite
+TAO:0000156	somite 20
+TAO:0000157	somite 30
+TAO:0000158	urostyle
+TAO:0000159	tectal ventricle
+TAO:0000160	tegmentum
+TAO:0000161	third ventricle
+TAO:0000162	trigeminal placode
+TAO:0000163	renal system
+TAO:0000164	ventral mesenchyme
+TAO:0000165	inferior lobe
+TAO:0000166	lateral crista
+TAO:0000168	anterior macula
+TAO:0000169	basisphenoid
+TAO:0000170	basibranchial bone
+TAO:0000171	interhyal bone
+TAO:0000172	branchial muscle
+TAO:0000173	bulbus arteriosus
+TAO:0000174	caudal cerebellar tract
+TAO:0000175	posterior lateral line nerve
+TAO:0000176	lateral entopeduncular nucleus
+TAO:0000177	caudal oblique
+TAO:0000178	caudal peduncle
+TAO:0000179	caudal root of abducens nerve
+TAO:0000180	caudal vein
+TAO:0000181	caudal zone of D
+TAO:0000182	central caudal thalamic nucleus
+TAO:0000183	central pretectum
+TAO:0000184	cleithrum
+TAO:0000185	commissura rostral, pars ventralis
+TAO:0000186	common cardinal vein
+TAO:0000187	lateral granular eminence
+TAO:0000188	corpus cerebelli
+TAO:0000189	otic region
+TAO:0000190	ganglion
+TAO:0000191	dentary
+TAO:0000192	descending trigeminal root
+TAO:0000193	diffuse nuclei
+TAO:0000194	dorsal accessory optic nucleus
+TAO:0000195	dorsal depressor
+TAO:0000196	dorsal hypohyal bone
+TAO:0000197	dorsal nucleus
+TAO:0000199	dorsal periventricular hypothalamus
+TAO:0000200	dorsal root ganglion
+TAO:0000201	dorsal transverse
+TAO:0000202	efferent branchial artery
+TAO:0000203	rhinosphenoid
+TAO:0000204	esophagus
+TAO:0000205	external ventral flexor
+TAO:0000206	facial nerve motor nucleus
+TAO:0000207	fin musculature
+TAO:0000208	gall bladder
+TAO:0000209	lateral preglomerular nucleus
+TAO:0000210	gigantocellular part of magnocellular preoptic nucleus
+TAO:0000211	gill lamella
+TAO:0000212	granular eminence
+TAO:0000213	habenula
+TAO:0000214	hypobranchial vessel
+TAO:0000215	inferior olive
+TAO:0000216	infracarinalis
+TAO:0000217	inner ear
+TAO:0000219	intermediate reticular formation
+TAO:0000220	lateral semicircular canal
+TAO:0000221	internal levator
+TAO:0000222	isthmic primary nucleus
+TAO:0000223	infraorbital 1
+TAO:0000224	quadrate ventral process
+TAO:0000225	lateral crista primordium
+TAO:0000226	lateral ethmoid
+TAO:0000227	lateral hypothalamic nucleus
+TAO:0000228	lateral line primordium
+TAO:0000229	lateral olfactory tract
+TAO:0000230	longitudinal hypochordal
+TAO:0000231	lateral recess
+TAO:0000232	lateral semicircular canal primordium
+TAO:0000233	lower oral valve
+TAO:0000234	macula neglecta
+TAO:0000235	magnocellular superficial pretectal nucleus
+TAO:0000236	mandibular muscle
+TAO:0000237	medial forebrain bundle diencephalon
+TAO:0000238	medial olfactory tract
+TAO:0000239	mesocoracoid bone
+TAO:0000240	metapterygoid
+TAO:0000241	midline column
+TAO:0000242	male
+TAO:0000243	neuromast
+TAO:0000244	nucleus Edinger-Westphal
+TAO:0000245	nucleus of the descending root
+TAO:0000246	nucleus taeniae
+TAO:0000247	cranial nerve VIII
+TAO:0000248	magnocellular preoptic nucleus
+TAO:0000249	cranial nerve I
+TAO:0000250	opercle
+TAO:0000251	adipose fin
+TAO:0000252	optic tract
+TAO:0000253	orbitosphenoid
+TAO:0000254	pancreas primordium
+TAO:0000255	paraxial mesoderm
+TAO:0000256	pars subcommissuralis of V
+TAO:0000257	pectoral fin cartilage
+TAO:0000258	pelvic fin musculature
+TAO:0000259	mandibular lateral line
+TAO:0000260	periventricular nucleus
+TAO:0000261	pharyngohyoid
+TAO:0000262	posterior semicircular canal
+TAO:0000263	precaudal vertebra
+TAO:0000264	preopercle
+TAO:0000265	presumptive dorsal mesoderm
+TAO:0000266	pretecto-mamillary tract
+TAO:0000267	primary olfactory fiber layer
+TAO:0000268	anal fin proximal radial
+TAO:0000269	inferior ventral flexor
+TAO:0000270	maxilla
+TAO:0000271	radial
+TAO:0000272	respiratory system
+TAO:0000274	rostral octaval nucleus
+TAO:0000275	rostral tegmental nucleus
+TAO:0000276	rostrolateral thalamic nucleus of Butler & Saidel
+TAO:0000278	secondary gustatory nucleus medulla oblongata
+TAO:0000279	segmental plate
+TAO:0000280	medial division
+TAO:0000281	hair cell posterior macula
+TAO:0000282	sensory system
+TAO:0000283	sternohyoid
+TAO:0000284	subopercle
+TAO:0000285	superficial adductor
+TAO:0000286	superficial lateralis
+TAO:0000287	superior dorsal flexor
+TAO:0000288	supracarinalis
+TAO:0000289	preopercle horizontal limb
+TAO:0000290	sphenoid region
+TAO:0000291	medial octavolateralis nucleus
+TAO:0000293	synencephalon
+TAO:0000294	torus lateralis
+TAO:0000295	trigeminal ganglion
+TAO:0000296	uncrossed tecto-bulbar tract
+TAO:0000297	vagal lobe
+TAO:0000298	vent
+TAO:0000299	ventral entopeduncular nucleus V
+TAO:0000300	ventral hypohyal bone
+TAO:0000301	medial rectus
+TAO:0000302	ventral nucleus
+TAO:0000303	female
+TAO:0000304	ventral telencephalon
+TAO:0000305	ventral sulcus
+TAO:0000306	ventrolateral thalamic nucleus
+TAO:0000307	vestibulolateralis lobe
+TAO:0000308	vomer
+TAO:0000309	E-YSL
+TAO:0000310	cranial nerve VI
+TAO:0000311	adductor mandibulae complex
+TAO:0000312	mesencephalic nucleus of trigeminal nerve
+TAO:0000313	anal inclinator
+TAO:0000314	anterior semicircular canal
+TAO:0000315	asteriscus
+TAO:0000316	basihyal bone
+TAO:0000318	brain stem/spinal tract and commissures
+TAO:0000319	branchiostegal membrane
+TAO:0000320	caudal commissure
+TAO:0000321	caudal levator
+TAO:0000322	caudal octaval nucleus
+TAO:0000323	mesethmoid bone
+TAO:0000324	caudal periventricular hypothalamus
+TAO:0000325	caudal thalamic nucleus
+TAO:0000326	caudal vertebra
+TAO:0000327	central zone
+TAO:0000328	cephalic musculature
+TAO:0000329	chorion
+TAO:0000330	cloacal chamber
+TAO:0000331	commissure infima of Haller
+TAO:0000333	mesovarium
+TAO:0000334	corpus mamillare
+TAO:0000335	crossed tecto-bulbar tract
+TAO:0000336	preopercle vertical limb
+TAO:0000337	basioccipital posterodorsal region
+TAO:0000338	diencephalic tracts and commissures
+TAO:0000339	digestive system
+TAO:0000340	dorsal entopeduncular nucleus
+TAO:0000341	dorsal flexor
+TAO:0000342	dorsal inclinator
+TAO:0000343	dorsal nucleus of V
+TAO:0000344	middle lateral line
+TAO:0000345	dorsal rectus
+TAO:0000346	dorsal tegmental nucleus
+TAO:0000347	dorsal zone
+TAO:0000348	exoccipital posteroventral region
+TAO:0000349	epaxialis
+TAO:0000350	epipleural
+TAO:0000351	olfactory region
+TAO:0000352	external cellular layer
+TAO:0000353	fasciculus retroflexus
+TAO:0000354	gill
+TAO:0000355	roof plate midbrain
+TAO:0000356	gill raker
+TAO:0000357	glomerular layer
+TAO:0000358	granular layer corpus cerebelli
+TAO:0000359	habenular commissure
+TAO:0000360	heart tube
+TAO:0000362	hypaxialis
+TAO:0000363	hypobranchial bone
+TAO:0000364	hypural
+TAO:0000365	nasal bone
+TAO:0000366	inferior raphe nucleus
+TAO:0000369	intermandibularis
+TAO:0000370	intermediate thalamic nucleus
+TAO:0000371	internal pharyngoclavicularis
+TAO:0000372	interpeduncular nucleus medulla oblongata
+TAO:0000373	dorsal fin actinotrichium
+TAO:0000374	lagena
+TAO:0000375	anal fin actinotrichium
+TAO:0000376	infraorbital
+TAO:0000379	lateral forebrain bundle diencephalon
+TAO:0000380	lateral lemniscus nucleus
+TAO:0000381	lateral line sensory nuclei
+TAO:0000383	lateral rectus
+TAO:0000384	levator arcus palatini
+TAO:0000385	lymphatic system
+TAO:0000386	macula
+TAO:0000387	nucleus motorius of nervi vagi
+TAO:0000388	medial caudal lobe
+TAO:0000389	medial funicular nucleus medulla oblongata
+TAO:0000390	medial preglomerular nucleus
+TAO:0000391	medial zone of D
+TAO:0000392	median tuberal portion
+TAO:0000393	mesenchyme
+TAO:0000394	molecular layer corpus cerebelli
+TAO:0000395	muscle pioneer somite 2
+TAO:0000396	nervous system
+TAO:0000397	nucleus subglomerulosis
+TAO:0000398	nucleus isthmi
+TAO:0000399	secondary gustatory nucleus trigeminal nuclei
+TAO:0000400	occipital lateral line
+TAO:0000401	octaval nerve sensory nuclei
+TAO:0000402	olfactory bulb
+TAO:0000403	ovary
+TAO:0000404	paracommissural nucleus
+TAO:0000405	cranial nerve III
+TAO:0000406	parvocellular superficial pretectal nucleus
+TAO:0000408	periventricular nucleus of caudal tuberculum
+TAO:0000410	postcleithrum
+TAO:0000411	posterior crista primordium
+TAO:0000412	posterior semicircular canal primordium
+TAO:0000413	gonad
+TAO:0000414	presumptive cephalic mesoderm
+TAO:0000415	esophageal sphincter
+TAO:0000416	presumptive endoderm
+TAO:0000417	presumptive spinal cord
+TAO:0000418	pretectum
+TAO:0000419	pterosphenoid
+TAO:0000420	renal artery
+TAO:0000421	reticular formation
+TAO:0000422	retroarticular
+TAO:0000423	anterior cardinal vein
+TAO:0000424	opercular lateral line
+TAO:0000425	anterior lateral line nerve
+TAO:0000426	rostral parvocellular preoptic nucleus
+TAO:0000427	rostral thalamic nucleus
+TAO:0000428	saccule
+TAO:0000429	scaphium
+TAO:0000430	secondary gustatory tract
+TAO:0000431	semicircular canal
+TAO:0000433	sensory trigeminal nuclei
+TAO:0000435	cranial nerve II
+TAO:0000436	spleen
+TAO:0000437	caudal fin actinotrichium
+TAO:0000438	parhypural
+TAO:0000439	superficial pelvic abductor
+TAO:0000440	superior raphe nucleus
+TAO:0000441	suprachiasmatic nucleus
+TAO:0000442	supraneural bone
+TAO:0000443	supraorbital lateral line
+TAO:0000444	suspensorium
+TAO:0000445	optic tectum
+TAO:0000446	tecto-bulbar tract
+TAO:0000447	tela chorioidea
+TAO:0000448	tertiary gustatory nucleus
+TAO:0000449	torus longitudinalis
+TAO:0000450	trochlear motor nucleus
+TAO:0000451	upper oral valve
+TAO:0000452	urohyal
+TAO:0000453	cranial nerve X
+TAO:0000454	ventral accessory optic nucleus
+TAO:0000455	ventral flexor
+TAO:0000456	ventral nucleus of V
+TAO:0000457	ventral rectus
+TAO:0000458	ventral thalamus
+TAO:0000459	ventromedial thalamic nucleus
+TAO:0000460	adipose fin actinotrichium
+TAO:0000461	Weberian ossicle
+TAO:0000462	abductor hyohyoid
+TAO:0000463	adductor
+TAO:0000464	otic lateral line
+TAO:0000465	adductor operculi
+TAO:0000466	anal depressor
+TAO:0000467	anguloarticular
+TAO:0000468	anterior crista primordium
+TAO:0000469	anterior semicircular canal primordium
+TAO:0000470	preoptic area
+TAO:0000471	atrium
+TAO:0000472	basioccipital
+TAO:0000473	trunk musculature
+TAO:0000474	intercalar
+TAO:0000475	paraventricular organ
+TAO:0000476	branchiostegal ray
+TAO:0000477	posterior cardinal vein
+TAO:0000479	caudal mesencephalo-cerebellar tract
+TAO:0000480	caudal octavolateralis nucleus
+TAO:0000481	caudal preglomerular nucleus
+TAO:0000482	caudal tuberal nucleus
+TAO:0000484	celiacomesenteric artery
+TAO:0000485	central nucleus inferior lobe
+TAO:0000486	parietal bone
+TAO:0000487	central zone of D
+TAO:0000488	ceratobranchial bone
+TAO:0000490	commissura cerebelli
+TAO:0000491	commissure of the caudal tuberculum
+TAO:0000492	coracoradialis
+TAO:0000493	decussation of medial funicular nucleus
+TAO:0000494	deep white zone
+TAO:0000495	infraorbital 5
+TAO:0000497	pelvic adductor profundus
+TAO:0000498	dilator operculi
+TAO:0000499	dorsal arrector
+TAO:0000500	dorsal erector
+TAO:0000501	dorsal funiculus
+TAO:0000502	dorsal motor nucleus trigeminal nerve
+TAO:0000503	dorsal oblique branchial muscle
+TAO:0000504	dorsal retractor
+TAO:0000505	dorsal telencephalon
+TAO:0000506	dorsal zone of D
+TAO:0000507	epineural
+TAO:0000508	pelvic fin radial
+TAO:0000509	epithalamus
+TAO:0000510	external levatores
+TAO:0000511	extraocular musculature
+TAO:0000512	facial lobe
+TAO:0000513	fast muscle cell somite 1
+TAO:0000514	frontal bone
+TAO:0000516	periventricular grey zone
+TAO:0000517	glossopharyngeal lobe
+TAO:0000518	griseum centrale
+TAO:0000519	hemal arch
+TAO:0000520	horizontal commissure
+TAO:0000521	hyoid muscle
+TAO:0000522	inferior hyohyoid
+TAO:0000523	inferior reticular formation
+TAO:0000524	infraorbital lateral line
+TAO:0000525	intercalarium
+TAO:0000526	intermuscular bone
+TAO:0000527	pharyngobranchial bone
+TAO:0000528	interradialis
+TAO:0000529	kidney
+TAO:0000530	lapillus
+TAO:0000531	lateral column
+TAO:0000532	lateral division
+TAO:0000533	lateral funiculus
+TAO:0000534	lateral longitudinal fasciculus
+TAO:0000535	lateral reticular nucleus
+TAO:0000536	lateral zone of D
+TAO:0000537	levator operculi
+TAO:0000538	rib
+TAO:0000539	locus coeruleus
+TAO:0000540	magnocellular octaval nucleus
+TAO:0000541	marginal blastomere
+TAO:0000542	medial column
+TAO:0000543	medial longitudinal fasciculus
+TAO:0000544	pectoral fin actinotrichium
+TAO:0000545	medulla oblongata
+TAO:0000546	mesonephric duct
+TAO:0000547	mouth
+TAO:0000549	posttemporal
+TAO:0000550	naris
+TAO:0000551	nucleus lateralis valvulae
+TAO:0000552	nucleus ruber
+TAO:0000553	oculomotor nucleus
+TAO:0000554	olfactory epithelium
+TAO:0000555	opercular flap
+TAO:0000556	optic chiasm
+TAO:0000557	preural 1 vertebra
+TAO:0000558	posterior macula
+TAO:0000559	otolith organ
+TAO:0000560	oviduct
+TAO:0000561	parasphenoid
+TAO:0000563	pectoral fin musculature
+TAO:0000564	pelvic abductor profundus
+TAO:0000566	posterior crista
+TAO:0000567	premaxilla
+TAO:0000568	presumptive blood
+TAO:0000569	presumptive hindbrain
+TAO:0000570	optic primordium
+TAO:0000571	presumptive telencephalon
+TAO:0000573	internal cellular layer
+TAO:0000574	presumptive diencephalon
+TAO:0000575	prootic
+TAO:0000576	pterotic
+TAO:0000577	renal portal vein
+TAO:0000578	anterior ceratohyal
+TAO:0000579	rostral mesencephalo-cerebellar tract
+TAO:0000580	rostral preglomerular nucleus
+TAO:0000581	rostral tuberal nucleus
+TAO:0000582	saccus dorsalis
+TAO:0000585	kinethmoid cartilage
+TAO:0000586	preural 2 vertebra
+TAO:0000587	sphenotic
+TAO:0000588	statoacoustic (VIII) ganglion
+TAO:0000589	sulcus ypsiloniformis
+TAO:0000590	oral region
+TAO:0000591	presumptive paraxial mesoderm
+TAO:0000592	superficial pelvic adductor
+TAO:0000593	superior reticular formation medial column
+TAO:0000594	supracleithrum
+TAO:0000595	supraoccipital
+TAO:0000596	pelvic fin actinotrichium
+TAO:0000597	telencephalic tracts
+TAO:0000598	testis
+TAO:0000599	torus semicircularis
+TAO:0000600	cranial nerve IV
+TAO:0000601	pretectal periventricular nucleus
+TAO:0000602	uroneural
+TAO:0000603	valvula cerebelli
+TAO:0000604	ventral aorta
+TAO:0000605	ventral funiculus
+TAO:0000606	ventral oblique branchial muscle
+TAO:0000607	ventral rhombencephalic commissure brain stem
+TAO:0000608	ventral transverse
+TAO:0000609	ventrolateral nucleus
+TAO:0000610	vertical myoseptum
+TAO:0000611	visceromotor column
+TAO:0000612	protractor hyoidei
+TAO:0000614	abductor profundus
+TAO:0000615	adductor arcus palatini
+TAO:0000616	adductor profundus
+TAO:0000617	anal erector
+TAO:0000618	ansulate commissure
+TAO:0000619	anterior crista
+TAO:0000620	autopalatine
+TAO:0000621	quadrate
+TAO:0000622	barbel
+TAO:0000623	basipterygium
+TAO:0000624	brachium conjunctivum
+TAO:0000626	bulbo-spinal tract
+TAO:0000627	posterior ceratohyal
+TAO:0000628	caudal fin musculature
+TAO:0000629	caudal motor nucleus
+TAO:0000630	caudal parvocellular preoptic nucleus
+TAO:0000631	caudal pretectal nucleus
+TAO:0000632	reproductive system
+TAO:0000633	caudal tuberculum
+TAO:0000634	caudal zone
+TAO:0000635	central pretectal nucleus
+TAO:0000636	cerebellar crest
+TAO:0000637	claustrum cartilage
+TAO:0000638	commissura rostral, pars dorsalis
+TAO:0000639	commissure of the secondary gustatory nuclei
+TAO:0000640	cornea
+TAO:0000641	cranial nerve
+TAO:0000642	decussation of the medial octavolateralis nucleus
+TAO:0000643	rostral cerebellar tract
+TAO:0000644	dental plate
+TAO:0000645	descending octaval nucleus
+TAO:0000646	anal fin distal radial
+TAO:0000647	dorsal caudal thalamic nucleus
+TAO:0000648	dorsal fin musculature
+TAO:0000649	dorsal horn spinal cord
+TAO:0000650	dorsal motor root of V
+TAO:0000651	dorsal pelvic arrector
+TAO:0000652	dorsal root
+TAO:0000653	dorsal thalamus
+TAO:0000654	rostral motor nucleus
+TAO:0000655	dorsomedial optic tract
+TAO:0000656	ectopterygoid
+TAO:0000657	entopterygoid
+TAO:0000658	epibranchial bone
+TAO:0000660	epural
+TAO:0000661	exoccipital
+TAO:0000662	external pharyngoclavicularis
+TAO:0000663	extrascapula
+TAO:0000664	cranial nerve VII
+TAO:0000665	rostral root of abducens nerve
+TAO:0000666	filamental artery
+TAO:0000667	gill filament
+TAO:0000668	cranial nerve IX
+TAO:0000669	head kidney
+TAO:0000670	hepatic vein
+TAO:0000671	horizontal myoseptum
+TAO:0000672	hyomandibula
+TAO:0000673	hypobranchial artery
+TAO:0000674	interopercle
+TAO:0000676	sagitta
+TAO:0000677	segmental intercostal artery
+TAO:0000678	hair cell anterior macula
+TAO:0000679	sensory root of facial nerve
+TAO:0000680	sinoatrial valve
+TAO:0000681	neural postzygapophysis
+TAO:0000682	spinal artery
+TAO:0000683	subcommissural organ
+TAO:0000684	intertectal commissure
+TAO:0000685	superficial abductor
+TAO:0000686	superficial grey and white zone
+TAO:0000687	superficial pretectum
+TAO:0000688	olfactory support cell
+TAO:0000689	supracommissural nucleus of V
+TAO:0000690	supraoptic commissure
+TAO:0000691	supraorbital bone
+TAO:0000692	symplectic
+TAO:0000693	tangential nucleus
+TAO:0000694	ceratobranchial 5 tooth
+TAO:0000695	labial cavities
+TAO:0000696	telencephalic ventricle
+TAO:0000697	cranial nerve V
+TAO:0000698	tripus
+TAO:0000699	entopterygoid vertical strut
+TAO:0000700	utricle
+TAO:0000701	ventral arrector
+TAO:0000702	ventral horn spinal cord
+TAO:0000703	ventral motor nucleus trigeminal nerve
+TAO:0000704	ventral pelvic arrector
+TAO:0000705	ventral root
+TAO:0000706	posterior intestine
+TAO:0000707	ventral zone
+TAO:0000708	ventrolateral optic tract
+TAO:0000709	vestibulo-spinal tract
+TAO:0000710	viscerosensory commissural nucleus of Cajal
+TAO:0000711	DEL
+TAO:0000712	I-YSL
+TAO:0000713	abducens motor nucleus
+TAO:0000714	accessory pretectal nucleus
+TAO:0000715	adductor hyohyoid
+TAO:0000716	afferent branchial artery
+TAO:0000717	apical ectodermal ridge median fin fold
+TAO:0000718	epaxial region somite 27
+TAO:0000719	slow muscle cell somite 21
+TAO:0000720	slow muscle cell somite 24
+TAO:0000721	slow muscle cell somite 27
+TAO:0000722	slow muscle cell somite 3
+TAO:0000723	slow muscle cell somite 5
+TAO:0000724	slow muscle cell somite 8
+TAO:0000725	somite 11
+TAO:0000726	somite 14
+TAO:0000727	somite 17
+TAO:0000728	somite 2
+TAO:0000729	epaxial region somite 3
+TAO:0000730	somite 23
+TAO:0000731	somite 27
+TAO:0000732	somite 3
+TAO:0000733	somite 7
+TAO:0000734	preural vertebra
+TAO:0000735	hemal postzygapophysis
+TAO:0000737	cranium
+TAO:0000738	dorsal oblique extraocular muscle
+TAO:0000739	epaxial region somite 11
+TAO:0000740	epaxial region somite 5
+TAO:0000741	epaxial region somite 14
+TAO:0000742	epaxial region somite 17
+TAO:0000743	epaxial region somite 2
+TAO:0000744	epaxial region somite 22
+TAO:0000745	epaxial region somite 25
+TAO:0000746	epaxial region somite 28
+TAO:0000747	epaxial region somite 30
+TAO:0000748	epaxial region somite 6
+TAO:0000749	epaxial region somite 9
+TAO:0000750	fast muscle cell somite 10
+TAO:0000751	epaxial region somite 8
+TAO:0000752	fast muscle cell somite 13
+TAO:0000753	fast muscle cell somite 16
+TAO:0000754	fast muscle cell somite 19
+TAO:0000755	fast muscle cell somite 21
+TAO:0000756	fast muscle cell somite 24
+TAO:0000757	fast muscle cell somite 27
+TAO:0000758	fast muscle cell somite 3
+TAO:0000759	fast muscle cell somite 5
+TAO:0000760	fast muscle cell somite 8
+TAO:0000761	basal plate midbrain
+TAO:0000762	facio-acoustic neural crest
+TAO:0000763	floor plate rhombomere 2
+TAO:0000764	floor plate rhombomere 5
+TAO:0000765	floor plate rhombomere 8
+TAO:0000766	granular layer valvula cerebelli
+TAO:0000767	hypaxial region somite 11
+TAO:0000768	hypaxial region somite 14
+TAO:0000769	hypaxial region somite 17
+TAO:0000770	hypaxial region somite 2
+TAO:0000771	hypaxial region somite 22
+TAO:0000772	hypaxial region somite 25
+TAO:0000773	fast muscle cell somite 12
+TAO:0000774	hypaxial region somite 28
+TAO:0000775	hypaxial region somite 30
+TAO:0000776	hypaxial region somite 6
+TAO:0000777	hypaxial region somite 9
+TAO:0000778	interneuron spinal cord
+TAO:0000779	lateral forebrain bundle telencephalon
+TAO:0000780	lateral wall diencephalon
+TAO:0000781	lateral wall rhombomere 1
+TAO:0000782	lateral wall rhombomere 4
+TAO:0000783	lateral wall rhombomere 7
+TAO:0000784	fast muscle cell somite 15
+TAO:0000785	lateral wall telencephalon
+TAO:0000786	medial migration pathway mesenchyme
+TAO:0000787	mesenchyme derived from head neural crest
+TAO:0000788	mesenchyme dorsal fin
+TAO:0000789	mesoderm pectoral fin bud
+TAO:0000790	muscle pioneer somite 10
+TAO:0000791	muscle pioneer somite 13
+TAO:0000792	muscle pioneer somite 16
+TAO:0000793	muscle pioneer somite 19
+TAO:0000794	muscle pioneer somite 22
+TAO:0000795	fast muscle cell somite 18
+TAO:0000796	muscle pioneer somite 25
+TAO:0000797	muscle pioneer somite 28
+TAO:0000798	muscle pioneer somite 30
+TAO:0000799	muscle pioneer somite 6
+TAO:0000800	muscle pioneer somite 9
+TAO:0000801	myotome somite 11
+TAO:0000802	myotome somite 15
+TAO:0000803	myotome somite 18
+TAO:0000804	myotome somite 20
+TAO:0000805	myotome somite 23
+TAO:0000806	fast muscle cell somite 20
+TAO:0000807	myotome somite 26
+TAO:0000808	myotome somite 29
+TAO:0000809	myotome somite 4
+TAO:0000810	myotome somite 7
+TAO:0000811	neural crest diencephalon
+TAO:0000812	neural crest telencephalon
+TAO:0000813	infraorbital lateral line neuromast
+TAO:0000814	opercular lateral line neuromast
+TAO:0000815	nucleus of the medial longitudinal fasciculus medulla oblongata
+TAO:0000816	oral epithelium
+TAO:0000817	fast muscle cell somite 23
+TAO:0000818	vagal neural crest
+TAO:0000819	postcommissural nucleus of V central entopeduncular nucleus
+TAO:0000820	presumptive neuron neural tube
+TAO:0000821	primary neuron hindbrain
+TAO:0000822	rhombomere 2
+TAO:0000823	rhombomere 5
+TAO:0000824	roof plate rhombomere 2
+TAO:0000825	roof plate rhombomere 6
+TAO:0000826	central nucleus torus semicircularis
+TAO:0000827	fast muscle cell somite 26
+TAO:0000828	roof plate rhombomere 5
+TAO:0000829	sclerotome somite 11
+TAO:0000830	sclerotome somite 14
+TAO:0000831	sclerotome somite 17
+TAO:0000832	sclerotome somite 2
+TAO:0000833	sclerotome somite 22
+TAO:0000834	sclerotome somite 25
+TAO:0000835	sclerotome somite 28
+TAO:0000836	sclerotome somite 30
+TAO:0000837	sclerotome somite 6
+TAO:0000838	fast muscle cell somite 29
+TAO:0000839	sclerotome somite 9
+TAO:0000840	slow muscle cell somite 11
+TAO:0000841	slow muscle cell somite 14
+TAO:0000842	slow muscle cell somite 17
+TAO:0000843	slow muscle cell somite 2
+TAO:0000844	slow muscle cell somite 22
+TAO:0000845	slow muscle cell somite 25
+TAO:0000846	slow muscle cell somite 28
+TAO:0000847	slow muscle cell somite 30
+TAO:0000848	slow muscle cell somite 6
+TAO:0000849	fast muscle cell somite 4
+TAO:0000850	slow muscle cell somite 9
+TAO:0000851	somite 12
+TAO:0000852	somite 15
+TAO:0000853	somite 18
+TAO:0000854	somite 21
+TAO:0000855	somite 24
+TAO:0000856	somite 28
+TAO:0000857	somite 4
+TAO:0000858	somite 8
+TAO:0000859	specialized hemal arch and spine
+TAO:0000860	fast muscle cell somite 7
+TAO:0000861	ventral oblique extraocular muscle
+TAO:0000863	dermatocranium
+TAO:0000864	epaxial region somite 1
+TAO:0000865	epaxial region somite 12
+TAO:0000866	epaxial region somite 15
+TAO:0000867	epaxial region somite 18
+TAO:0000868	epaxial region somite 20
+TAO:0000869	epaxial region somite 23
+TAO:0000870	epaxial region somite 26
+TAO:0000871	floor plate diencephalon
+TAO:0000872	epaxial region somite 29
+TAO:0000873	epaxial region somite 4
+TAO:0000874	epaxial region somite 7
+TAO:0000875	facial neural crest
+TAO:0000876	fast muscle cell somite 11
+TAO:0000877	fast muscle cell somite 14
+TAO:0000878	fast muscle cell somite 17
+TAO:0000879	fast muscle cell somite 2
+TAO:0000880	fast muscle cell somite 22
+TAO:0000881	fast muscle cell somite 25
+TAO:0000882	floor plate rhombomere 1
+TAO:0000883	fast muscle cell somite 28
+TAO:0000884	fast muscle cell somite 30
+TAO:0000885	fast muscle cell somite 6
+TAO:0000886	fast muscle cell somite 9
+TAO:0000887	floor plate neural rod
+TAO:0000888	floor plate rhombomere 3
+TAO:0000889	floor plate rhombomere 6
+TAO:0000890	floor plate spinal cord
+TAO:0000891	hypaxial region somite 1
+TAO:0000892	hypaxial region somite 12
+TAO:0000893	floor plate rhombomere 4
+TAO:0000894	hypaxial region somite 15
+TAO:0000895	hypaxial region somite 18
+TAO:0000896	hypaxial region somite 20
+TAO:0000897	hypaxial region somite 23
+TAO:0000898	hypaxial region somite 26
+TAO:0000899	hypaxial region somite 29
+TAO:0000900	hypaxial region somite 4
+TAO:0000901	hypaxial region somite 7
+TAO:0000902	hypural musculature
+TAO:0000903	interpeduncular nucleus tegmentum
+TAO:0000904	floor plate rhombomere 7
+TAO:0000905	lateral mesenchyme derived from mesoderm
+TAO:0000906	lateral wall midbrain
+TAO:0000907	lateral wall rhombomere 2
+TAO:0000908	lateral wall rhombomere 5
+TAO:0000909	lateral wall rhombomere 8
+TAO:0000910	medial forebrain bundle telencephalon
+TAO:0000911	transverse process of neural arch 3
+TAO:0000912	mesenchyme median fin fold
+TAO:0000913	molecular layer valvula cerebelli
+TAO:0000914	floor plate telencephalon
+TAO:0000915	muscle pioneer somite 11
+TAO:0000916	muscle pioneer somite 14
+TAO:0000917	muscle pioneer somite 17
+TAO:0000918	muscle pioneer somite 20
+TAO:0000919	muscle pioneer somite 23
+TAO:0000920	muscle pioneer somite 26
+TAO:0000921	muscle pioneer somite 29
+TAO:0000922	muscle pioneer somite 4
+TAO:0000923	muscle pioneer somite 7
+TAO:0000924	myotome somite 1
+TAO:0000925	hypaxial region somite 10
+TAO:0000926	myotome somite 12
+TAO:0000927	myotome somite 16
+TAO:0000928	myotome somite 19
+TAO:0000929	myotome somite 21
+TAO:0000930	myotome somite 24
+TAO:0000931	myotome somite 27
+TAO:0000932	myotome somite 3
+TAO:0000933	myotome somite 5
+TAO:0000934	myotome somite 8
+TAO:0000935	neural crest midbrain
+TAO:0000936	dorsal fin distal radial
+TAO:0000937	hypaxial region somite 13
+TAO:0000938	central canal
+TAO:0000939	middle lateral line neuromast
+TAO:0000940	posterior lateral line neuromast
+TAO:0000941	nucleus of the medial longitudinal fasciculus synencephalon
+TAO:0000942	paraxial mesenchyme
+TAO:0000944	posterior lateral line
+TAO:0000946	hypaxial region somite 16
+TAO:0000947	dorsal fin proximal radial
+TAO:0000948	rhombomere 3
+TAO:0000949	rhombomere 7
+TAO:0000950	roof plate rhombomere 3
+TAO:0000951	roof plate rhombomere 7
+TAO:0000952	sclerotome somite 1
+TAO:0000953	sclerotome somite 12
+TAO:0000954	sclerotome somite 15
+TAO:0000955	sclerotome somite 18
+TAO:0000956	sclerotome somite 20
+TAO:0000957	hypaxial region somite 19
+TAO:0000958	sclerotome somite 23
+TAO:0000959	sclerotome somite 26
+TAO:0000960	sclerotome somite 29
+TAO:0000961	sclerotome somite 4
+TAO:0000962	sclerotome somite 7
+TAO:0000963	slow muscle cell somite 1
+TAO:0000964	slow muscle cell somite 12
+TAO:0000965	slow muscle cell somite 15
+TAO:0000966	slow muscle cell somite 18
+TAO:0000967	slow muscle cell somite 20
+TAO:0000968	hypaxial region somite 21
+TAO:0000969	slow muscle cell somite 23
+TAO:0000970	slow muscle cell somite 26
+TAO:0000971	slow muscle cell somite 29
+TAO:0000972	slow muscle cell somite 4
+TAO:0000973	slow muscle cell somite 7
+TAO:0000974	somite 10
+TAO:0000975	somite 13
+TAO:0000976	somite 16
+TAO:0000977	somite 19
+TAO:0000978	somite 22
+TAO:0000979	hypaxial region somite 24
+TAO:0000980	somite 25
+TAO:0000981	somite 29
+TAO:0000982	somite 6
+TAO:0000983	somite 9
+TAO:0000984	superior reticular formation tegmentum
+TAO:0000985	ventral rhombencephalic commissure medulla oblongata
+TAO:0000986	hypaxial region somite 27
+TAO:0000987	hypaxial region somite 3
+TAO:0000988	hypaxial region somite 5
+TAO:0000989	hypaxial region somite 8
+TAO:0000990	intermediate mesenchyme
+TAO:0000991	epaxial region somite 10
+TAO:0000992	lateral migration pathway mesenchyme
+TAO:0000993	lateral wall neural rod
+TAO:0000994	lateral wall rhombomere 3
+TAO:0000995	lateral wall rhombomere 6
+TAO:0000996	lateral wall spinal cord
+TAO:0000997	medial funicular nucleus trigeminal nuclei
+TAO:0000998	mesenchyme derived from head mesoderm
+TAO:0000999	mesenchyme derived from trunk neural crest
+TAO:0001000	mesenchyme pectoral fin
+TAO:0001001	epaxial region somite 13
+TAO:0001002	motor axons peripheral
+TAO:0001003	muscle pioneer somite 12
+TAO:0001004	muscle pioneer somite 15
+TAO:0001005	muscle pioneer somite 18
+TAO:0001006	muscle pioneer somite 21
+TAO:0001007	muscle pioneer somite 24
+TAO:0001008	muscle pioneer somite 27
+TAO:0001009	muscle pioneer somite 3
+TAO:0001010	muscle pioneer somite 5
+TAO:0001011	muscle pioneer somite 8
+TAO:0001012	epaxial region somite 16
+TAO:0001013	myotome somite 10
+TAO:0001014	myotome somite 13
+TAO:0001015	myotome somite 17
+TAO:0001016	myotome somite 2
+TAO:0001017	myotome somite 22
+TAO:0001018	myotome somite 25
+TAO:0001019	myotome somite 28
+TAO:0001020	myotome somite 30
+TAO:0001021	myotome somite 6
+TAO:0001022	myotome somite 9
+TAO:0001023	epaxial region somite 19
+TAO:0001024	trunk neural crest
+TAO:0001025	occipital lateral line neuromast
+TAO:0001026	supraorbital lateral line neuromast
+TAO:0001027	oral cavity
+TAO:0001028	hypurapophysis
+TAO:0001029	inner limiting membrane
+TAO:0001030	epaxial region somite 21
+TAO:0001031	rhombomere 1
+TAO:0001032	rhombomere 4
+TAO:0001033	roof plate rhombomere 1
+TAO:0001034	roof plate rhombomere 4
+TAO:0001035	roof plate rhombomere 8
+TAO:0001036	sclerotome somite 10
+TAO:0001037	sclerotome somite 13
+TAO:0001038	sclerotome somite 16
+TAO:0001039	sclerotome somite 19
+TAO:0001040	epaxial region somite 24
+TAO:0001041	sclerotome somite 21
+TAO:0001042	sclerotome somite 24
+TAO:0001043	sclerotome somite 27
+TAO:0001044	sclerotome somite 3
+TAO:0001045	sclerotome somite 5
+TAO:0001046	sclerotome somite 8
+TAO:0001047	slow muscle cell somite 10
+TAO:0001048	slow muscle cell somite 13
+TAO:0001049	slow muscle cell somite 16
+TAO:0001050	slow muscle cell somite 19
+TAO:0001051	caudal division of the internal carotid artery
+TAO:0001052	primordial hindbrain channel
+TAO:0001053	primitive internal carotid artery
+TAO:0001054	lateral dorsal aorta
+TAO:0001055	pronephric duct opening
+TAO:0001056	myotome
+TAO:0001057	intersegmental vein
+TAO:0001059	cranial division of the internal carotid artery
+TAO:0001060	basidorsal
+TAO:0001061	intersegmental artery
+TAO:0001062	primitive mesencephalic artery
+TAO:0001063	posterior caudal vein
+TAO:0001064	rhombomere
+TAO:0001065	lateral mesoderm
+TAO:0001066	neural arch
+TAO:0001067	anterior cerebral vein
+TAO:0001068	mesencephalic artery
+TAO:0001069	ventral fin fold
+TAO:0001070	presumptive pronephric mesoderm
+TAO:0001071	presumptive retina
+TAO:0001072	thyroid follicle
+TAO:0001073	axial vasculature
+TAO:0001074	taste bud
+TAO:0001075	choroid fissure
+TAO:0001076	intestinal bulb
+TAO:0001077	thymus primordium
+TAO:0001078	thymus
+TAO:0001079	blood vasculature
+TAO:0001080	sclerotome
+TAO:0001081	thyroid primordium
+TAO:0001082	chordo neural hinge
+TAO:0001083	ventricular zone
+TAO:0001084	epaxial myotome region
+TAO:0001085	hypaxial myotome region
+TAO:0001086	muscle pioneer
+TAO:0001089	myoseptum
+TAO:0001094	body
+TAO:0001095	immature macula
+TAO:0001096	immature anterior macula
+TAO:0001097	immature posterior macula
+TAO:0001098	immature hair cell anterior macula
+TAO:0001099	immature hair cell posterior macula
+TAO:0001100	hepatic duct
+TAO:0001101	gustatory system
+TAO:0001102	immature anterior otolith
+TAO:0001103	immature posterior otolith
+TAO:0001104	pharyngeal endoderm
+TAO:0001106	pharyngeal pouch
+TAO:0001107	internal gill bud
+TAO:0001108	anterior commissure
+TAO:0001109	oocyte
+TAO:0001110	ovarian follicle
+TAO:0001111	zona radiata
+TAO:0001112	granulosa cell layer
+TAO:0001113	thecal cell layer
+TAO:0001114	head
+TAO:0001115	trunk
+TAO:0001116	presumptive structure
+TAO:0001117	post-vent region
+TAO:0001118	urogenital papilla
+TAO:0001119	dermis
+TAO:0001120	neuroectoderm
+TAO:0001121	presumptive shield
+TAO:0001122	primary germ layer
+TAO:0001125	organizer inducing center
+TAO:0001126	noninvoluting endocytic marginal cell cluster
+TAO:0001127	visual system
+TAO:0001128	pharyngeal pouch 1
+TAO:0001129	pharyngeal pouches 2-6
+TAO:0001130	pharyngeal pouch 2
+TAO:0001131	pharyngeal pouch 3
+TAO:0001132	pharyngeal pouch 6
+TAO:0001133	pharyngeal pouch 5
+TAO:0001134	pharyngeal pouch 4
+TAO:0001135	neural tube
+TAO:0001136	hypodermis
+TAO:0001137	ventral tooth row
+TAO:0001138	vestibuloauditory system
+TAO:0001139	mediodorsal tooth row
+TAO:0001140	dorsal tooth row
+TAO:0001141	tooth 1V
+TAO:0001142	tooth 5V
+TAO:0001143	tooth 4V
+TAO:0001144	tooth 2V
+TAO:0001145	tooth 3V
+TAO:0001146	tooth 1MD
+TAO:0001147	tooth 2MD
+TAO:0001148	tooth 1D
+TAO:0001149	olfactory system
+TAO:0001150	tooth 2D
+TAO:0001151	tooth 4MD
+TAO:0001152	tooth 3MD
+TAO:0001153	tooth placode
+TAO:0001154	anal fin musculature
+TAO:0001155	enteric nervous system
+TAO:0001156	posterior lateral line placode
+TAO:0001157	posterior lateral line primordium
+TAO:0001158	endocrine system
+TAO:0001159	immune system
+TAO:0001160	dorsal scute
+TAO:0001163	supraneural 7 bone
+TAO:0001164	supraneural 6 bone
+TAO:0001165	supraneural 5 bone
+TAO:0001166	supraneural 9 bone
+TAO:0001167	vertebra 1
+TAO:0001168	vertebra 2
+TAO:0001169	vertebra 3
+TAO:0001170	vertebra 4
+TAO:0001171	os suspensorium
+TAO:0001172	roofing cartilage
+TAO:0001174	pharyngeal epithelium
+TAO:0001175	blastodisc
+TAO:0001176	blastoderm
+TAO:0001177	roof plate spinal cord
+TAO:0001178	non neural ectoderm
+TAO:0001179	epidermal superficial stratum
+TAO:0001180	epidermal basal stratum
+TAO:0001181	epidermal intermediate stratum
+TAO:0001182	dermal deep region
+TAO:0001183	dermal superficial region
+TAO:0001185	periderm
+TAO:0001186	collagenous dermal stroma
+TAO:0001187	presumptive midbrain hindbrain boundary
+TAO:0001188	Weberian apparatus
+TAO:0001189	vertebra
+TAO:0001190	Weberian vertebra
+TAO:0001191	supraneural 2 bone
+TAO:0001192	supraneural 3 bone
+TAO:0001193	supraneural 8 bone
+TAO:0001194	cranial neural crest
+TAO:0001195	pars anterior
+TAO:0001196	pars tuberalis
+TAO:0001197	pars intermedia
+TAO:0001198	adenohypophyseal placode
+TAO:0001199	infundibulum
+TAO:0001200	corpuscles of Stannius
+TAO:0001201	ventral lateral mesoderm
+TAO:0001202	optic cup
+TAO:0001203	ciliary body
+TAO:0001204	axial mesoderm
+TAO:0001205	Meckel's cartilage
+TAO:0001206	intermediate mesoderm
+TAO:0001207	presumptive rhombomere 1
+TAO:0001208	presumptive rhombomere 2
+TAO:0001209	presumptive rhombomere 7
+TAO:0001210	presumptive rhombomere 6
+TAO:0001211	presumptive rhombomere 5
+TAO:0001212	presumptive rhombomere 4
+TAO:0001213	presumptive rhombomere 3
+TAO:0001214	presumptive rhombomere 8
+TAO:0001215	thalamus
+TAO:0001216	splanchnocranium
+TAO:0001217	presumptive hypochord
+TAO:0001218	presumptive floor plate
+TAO:0001220	copula
+TAO:0001221	anterior copula
+TAO:0001222	posterior copula
+TAO:0001223	basibranchial 1 bone
+TAO:0001224	basibranchial 2 bone
+TAO:0001225	basibranchial 3 bone
+TAO:0001226	basibranchial 4 bone
+TAO:0001227	mandibular arch
+TAO:0001228	gill arch 1 skeleton
+TAO:0001229	gill arch 5 skeleton
+TAO:0001230	gill arch 4 skeleton
+TAO:0001231	gill arch 2 skeleton
+TAO:0001232	gill arch 3 skeleton
+TAO:0001233	hypobranchial 1 bone
+TAO:0001234	hypobranchial 4 bone
+TAO:0001235	hypobranchial 3 bone
+TAO:0001236	hypobranchial 2 bone
+TAO:0001237	ceratobranchial 1 bone
+TAO:0001238	iris
+TAO:0001239	ceratobranchial 5 bone
+TAO:0001240	ceratobranchial 4 bone
+TAO:0001241	ceratobranchial 3 bone
+TAO:0001242	ceratobranchial 2 bone
+TAO:0001243	epibranchial 1 bone
+TAO:0001244	epibranchial 5 cartilage
+TAO:0001245	epibranchial 4 bone
+TAO:0001246	epibranchial 2 bone
+TAO:0001247	epibranchial 3 bone
+TAO:0001248	dorsal scute series
+TAO:0001249	exocrine pancreas
+TAO:0001250	pharyngobranchial 2 bone
+TAO:0001251	pharyngobranchial 4 cartilage
+TAO:0001252	pharyngobranchial 3 bone
+TAO:0001253	neural arch 2
+TAO:0001254	abdominal scute series
+TAO:0001256	lateral floor plate
+TAO:0001257	medial floor plate
+TAO:0001258	floor plate hindbrain
+TAO:0001259	forebrain ventricle
+TAO:0001260	endocrine pancreas
+TAO:0001261	ventricular system
+TAO:0001262	gonad primordium
+TAO:0001263	ovarian follicle stage I
+TAO:0001264	ovarian follicle stage IV
+TAO:0001265	ovarian follicle stage II
+TAO:0001266	ovarian follicle stage III
+TAO:0001267	cranial vasculature
+TAO:0001268	sperm duct
+TAO:0001269	regenerating fin
+TAO:0001270	blastema
+TAO:0001271	neurohypophysis
+TAO:0001272	palatoquadrate arch
+TAO:0001273	ventral mandibular arch
+TAO:0001274	coronomeckelian
+TAO:0001275	sublingual
+TAO:0001276	hyoid arch
+TAO:0001277	anterior chamber swim bladder
+TAO:0001278	posterior chamber swim bladder
+TAO:0001279	branchiostegal ray 1
+TAO:0001280	branchiostegal ray 3
+TAO:0001281	branchiostegal ray 2
+TAO:0001282	adenohypophysis
+TAO:0001283	pupil
+TAO:0001284	optic fissure
+TAO:0001285	intersegmental vessel
+TAO:0001286	caudal vein plexus
+TAO:0001287	renal tubule
+TAO:0001288	renal glomeruli
+TAO:0001289	ciliary marginal zone
+TAO:0001290	stomodeum
+TAO:0001291	facial ganglion
+TAO:0001292	epiphyseal stalk
+TAO:0001293	posterior kidney
+TAO:0001294	epibranchial placode
+TAO:0001295	facial placode
+TAO:0001296	glossopharyngeal placode
+TAO:0001297	vagal placode 1
+TAO:0001298	vagal placode 2
+TAO:0001299	vagal placode 3
+TAO:0001300	vagal placode 4
+TAO:0001301	glossopharyngeal ganglion
+TAO:0001302	vagal ganglion 1
+TAO:0001303	vagal ganglion 2
+TAO:0001304	vagal ganglion 3
+TAO:0001305	vagal ganglion 4
+TAO:0001306	pharyngeal arch
+TAO:0001307	pharyngeal musculature
+TAO:0001309	neurogenic placode
+TAO:0001310	dorsolateral placode
+TAO:0001311	roof plate rhombomere
+TAO:0001312	dorsal anterior lateral line ganglion
+TAO:0001313	ventral anterior lateral line ganglion
+TAO:0001314	posterior lateral line ganglion
+TAO:0001315	atrioventricular canal
+TAO:0001316	anterior lateral line placode
+TAO:0001317	endocardial cushion
+TAO:0001318	cardiac jelly
+TAO:0001319	myocardium
+TAO:0001320	endocardium
+TAO:0001321	neurocranial trabecula
+TAO:0001322	dorsoventral diencephalic tract
+TAO:0001323	mid intestine
+TAO:0001324	enteric musculature
+TAO:0001325	neural prezygapophysis
+TAO:0001326	lens epithelium
+TAO:0001327	abdominal musculature
+TAO:0001328	neuromere
+TAO:0001329	retinal inner plexiform layer
+TAO:0001330	retinal outer plexiform layer
+TAO:0001331	outer limiting membrane
+TAO:0001332	spinal neuromere
+TAO:0001333	sublingual dorsal and ventral fused
+TAO:0001334	presumptive enteric nervous system
+TAO:0001335	supradorsal
+TAO:0001336	neural spine
+TAO:0001337	spermatogonia
+TAO:0001338	intestine
+TAO:0001339	nucleus of the tract of the anterior commissure
+TAO:0001340	nucleus of the tract of the postoptic commissure
+TAO:0001341	intervening zone
+TAO:0001342	presumptive intervening zone
+TAO:0001343	telencephalon diencephalon boundary
+TAO:0001344	zona limitans intrathalamica
+TAO:0001345	interrenal gland
+TAO:0001346	interrenal primordium
+TAO:0001347	stratum fibrosum et griseum superficiale
+TAO:0001348	stratum marginale
+TAO:0001349	stratum opticum
+TAO:0001350	stratum griseum centrale
+TAO:0001351	stratum album centrale
+TAO:0001352	stratum periventriculare
+TAO:0001353	mesencephalic tectum
+TAO:0001354	mesencephalic tegmentum
+TAO:0001355	primitive meninx
+TAO:0001356	terminal nerve
+TAO:0001357	alar plate midbrain
+TAO:0001358	roof plate diencephalon
+TAO:0001359	pineal complex
+TAO:0001360	parapineal organ
+TAO:0001361	basiventral
+TAO:0001362	parapophysis
+TAO:0001363	neural complex
+TAO:0001364	hemal spine
+TAO:0001365	trigeminal motor nuclei
+TAO:0001366	tract of the postoptic commissure
+TAO:0001367	forebrain midbrain boundary
+TAO:0001368	presumptive forebrain midbrain boundary
+TAO:0001369	anterior pancreatic bud
+TAO:0001370	posterior pancreatic bud
+TAO:0001371	pancreatic system
+TAO:0001372	pancreatic duct
+TAO:0001373	migratory slow muscle precursor cell
+TAO:0001374	atrial myocardium
+TAO:0001375	ventriculo bulbo valve
+TAO:0001376	presumptive ectoderm
+TAO:0001377	presumptive mesoderm
+TAO:0001378	axial hypoblast
+TAO:0001379	pharyngeal ectoderm
+TAO:0001381	hypohyal bone
+TAO:0001382	epibranchial bone uncinate process
+TAO:0001384	pelvic fin bud
+TAO:0001385	apical ectodermal ridge pelvic fin bud
+TAO:0001386	mesoderm pelvic fin bud
+TAO:0001388	epithelial mesenchymal boundary
+TAO:0001389	regeneration epithelium
+TAO:0001390	pancreatic bud
+TAO:0001391	anterior lateral line ganglia
+TAO:0001392	parapophysis 1
+TAO:0001393	parapophysis 2
+TAO:0001394	neural arch 3
+TAO:0001395	neural arch 4
+TAO:0001396	parapophysis + rib of vertebra 4
+TAO:0001397	post-Weberian supraneural
+TAO:0001399	palatoquadrate cartilage
+TAO:0001400	ceratohyal cartilage
+TAO:0001401	dorsal hyoid arch
+TAO:0001402	ventral hyoid arch
+TAO:0001403	supraethmoid
+TAO:0001404	preethmoid bone
+TAO:0001405	ethmoid cartilage
+TAO:0001406	kinethmoid bone
+TAO:0001407	infraorbital 2
+TAO:0001408	infraorbital 3
+TAO:0001409	infraorbital 4
+TAO:0001410	orbital region
+TAO:0001411	sclerotic bone
+TAO:0001412	epiotic
+TAO:0001414	occipital region
+TAO:0001415	pelvic radial 2
+TAO:0001416	pelvic radial 3
+TAO:0001417	pelvic radial 1
+TAO:0001419	dorsal fin pterygiophore
+TAO:0001420	anal fin pterygiophore
+TAO:0001422	hyosymplectic cartilage
+TAO:0001423	parachordal cartilage
+TAO:0001424	chondrocranium
+TAO:0001425	basal plate cartilage
+TAO:0001426	posterior naris
+TAO:0001427	anterior naris
+TAO:0001428	olfactory rosette
+TAO:0001429	raphe nucleus
+TAO:0001430	pneumatic duct
+TAO:0001431	primitive olfactory epithelium
+TAO:0001432	anterior sclerotic bone
+TAO:0001433	posterior sclerotic bone
+TAO:0001434	floor plate neural tube
+TAO:0001435	lateral wall neural tube
+TAO:0001436	roof plate neural tube
+TAO:0001437	ductus communicans
+TAO:0001438	coelom
+TAO:0001440	rhombic lip
+TAO:0001441	lower rhombic lip
+TAO:0001442	upper rhombic lip
+TAO:0001443	choroid plexus
+TAO:0001444	choroid plexus third ventricle
+TAO:0001445	choroid plexus tectal ventricle
+TAO:0001446	choroid plexus fourth ventricle
+TAO:0001447	choroid plexus telencephalic ventricle
+TAO:0001448	ultimobranchial body
+TAO:0001449	mesenchyme pelvic fin
+TAO:0001450	apical ectodermal ridge pelvic fin
+TAO:0001451	zone of polarizing activity pectoral fin bud
+TAO:0001452	zone of polarizing activity pelvic fin bud
+TAO:0001453	pectoral fin field
+TAO:0001454	pelvic fin field
+TAO:0001455	scapulocoracoid cartilage
+TAO:0001456	pectoral fin endoskeletal disc
+TAO:0001457	postcranial axial cartilage
+TAO:0001458	cranial cartilage
+TAO:0001459	pelvic fin cartilage
+TAO:0001460	pharyngeal arch cartilage
+TAO:0001461	chondrocranium cartilage
+TAO:0001462	somite border
+TAO:0001463	melanophore stripe
+TAO:0001464	retinal outer nuclear layer
+TAO:0001465	photoreceptor inner segment layer
+TAO:0001466	photoreceptor outer segment layer
+TAO:0001467	pharyngeal mesoderm
+TAO:0001468	anterior lateral line system
+TAO:0001469	lateral line
+TAO:0001470	anterior lateral line
+TAO:0001471	posterior lateral line system
+TAO:0001472	anterior lateral line neuromast
+TAO:0001473	deep blastomere
+TAO:0001474	sublingual dorsal and ventral separate
+TAO:0001475	sublingual dorsal ossification
+TAO:0001476	sublingual ventral ossification
+TAO:0001479	lateral line nerve
+TAO:0001480	dorsal anterior lateral line nerve
+TAO:0001481	ventral anterior lateral line nerve
+TAO:0001482	middle lateral line nerve
+TAO:0001483	middle lateral line ganglion
+TAO:0001484	superficial blastomere
+TAO:0001499	esophageal epithelium
+TAO:0001500	auditory capsule
+TAO:0001502	epiphyseal bar
+TAO:0001503	lamina orbitonasalis
+TAO:0001504	occipital arch cartilage
+TAO:0001505	taenia marginalis anterior
+TAO:0001506	tectum synoticum
+TAO:0001507	trabecula cranii
+TAO:0001508	trabecula communis
+TAO:0001509	sclerotic cartilage
+TAO:0001510	basihyal cartilage
+TAO:0001511	interhyal cartilage
+TAO:0001513	dermomyotome
+TAO:0001515	taenia marginalis posterior
+TAO:0001516	ceratobranchial cartilage
+TAO:0001517	ceratobranchial 2 cartilage
+TAO:0001518	ceratobranchial 3 cartilage
+TAO:0001519	ceratobranchial 4 cartilage
+TAO:0001520	ceratobranchial 1 cartilage
+TAO:0001521	ceratobranchial 5 cartilage
+TAO:0001522	hypobranchial cartilage
+TAO:0001523	hypobranchial 4 cartilage
+TAO:0001524	hypobranchial 1 cartilage
+TAO:0001525	hypobranchial 2 cartilage
+TAO:0001526	hypobranchial 3 cartilage
+TAO:0001527	epibranchial cartilage
+TAO:0001528	epibranchial 1 cartilage
+TAO:0001529	epibranchial 3 cartilage
+TAO:0001530	epibranchial 2 cartilage
+TAO:0001531	epibranchial 4 cartilage
+TAO:0001532	sublingual dorsal cartilage
+TAO:0001533	pharyngobranchial cartilage
+TAO:0001534	pharyngobranchial 3 cartilage
+TAO:0001535	median fin cartilage
+TAO:0001536	pharyngobranchial 2 cartilage
+TAO:0001537	mesocoracoid cartilage
+TAO:0001538	pelvic radial cartilage
+TAO:0001539	basipterygium cartilage
+TAO:0001540	pelvic radial 3 cartilage
+TAO:0001541	pelvic radial 2 cartilage
+TAO:0001542	pelvic radial 1 cartilage
+TAO:0001543	paired fin cartilage
+TAO:0001544	sublingual cartilage
+TAO:0001545	sublingual ventral cartilage
+TAO:0001546	neural spine 4
+TAO:0001547	abdominal scute
+TAO:0001548	intercalarium ascending process
+TAO:0001549	intercalarium articulating process
+TAO:0001553	manubrium
+TAO:0001555	epibranchial ganglion
+TAO:0001556	sympathetic chain ganglion
+TAO:0001557	pronephric glomerulus
+TAO:0001558	pronephric tubule
+TAO:0001560	hypural 1
+TAO:0001561	hypural 2
+TAO:0001562	hypural 3
+TAO:0001563	hypural 4
+TAO:0001564	hypural 5
+TAO:0001565	oocyte stage II
+TAO:0001566	oocyte stage III
+TAO:0001567	oocyte stage I
+TAO:0001568	oocyte stage IV
+TAO:0001569	oocyte stage V
+TAO:0001570	unfertilized egg
+TAO:0001571	postovulatory follicle
+TAO:0001572	superior cervical ganglion
+TAO:0001573	trunk ganglion
+TAO:0001574	autonomic nervous system
+TAO:0001575	parasympathetic nervous system
+TAO:0001576	sympathetic nervous system
+TAO:0001577	premaxilla ascending process
+TAO:0001578	anterior dorsomedial process of autopalatine
+TAO:0001579	ural vertebra 2
+TAO:0001580	neurocranium
+TAO:0001581	ural centrum 2
+TAO:0001582	non-Weberian precaudal vertebra
+TAO:0001583	preural centrum 1+ ural centrum 1
+TAO:0001584	caudal procurrent ray
+TAO:0001585	caudal principal ray
+TAO:0001586	pectoral fin radial
+TAO:0001587	pectoral fin proximal radial
+TAO:0001588	pectoral fin distal radial
+TAO:0001589	propterygium
+TAO:0001592	claustrum bone
+TAO:0001593	caudal fin upper lobe
+TAO:0001594	caudal fin lower lobe
+TAO:0001595	pharyngeal arch 1
+TAO:0001596	pharyngeal arch 2
+TAO:0001597	gill arch
+TAO:0001598	gill arch 1
+TAO:0001599	gill arch 2
+TAO:0001600	gill arch 3
+TAO:0001601	gill arch 4
+TAO:0001602	gill arch 5
+TAO:0001603	maxilla ascending process
+TAO:0001604	lateral ethmoid palatine process
+TAO:0001605	caudal scute series
+TAO:0001606	caudal scute
+TAO:0001607	basipterygoid process of parasphenoid
+TAO:0001608	autopalatine-lateral ethmoid joint
+TAO:0001609	pharyngobranchial 2 bone uncinate process
+TAO:0001610	quadrate dorsal process
+TAO:0001611	quadrate posterodorsal process
+TAO:0001612	sensory canal
+TAO:0001613	dorsal fin middle radial
+TAO:0001614	anal fin middle radial
+TAO:0001615	sphenotic spine
+TAO:0001616	lateral ethmoid wing
+TAO:0001617	trunk sensory canal
+TAO:0001619	post-otic sensory canal
+TAO:0001620	lagenar capsule
+TAO:0001621	otolith
+TAO:0001622	odontode
+TAO:0001623	type 1 odontode
+TAO:0001624	type 2 odontode
+TAO:0001625	tooth
+TAO:0001626	premaxillary tooth
+TAO:0001627	maxillary tooth
+TAO:0001628	dentary tooth
+TAO:0001629	otic sensory canal
+TAO:0001630	supratemporal sensory canal
+TAO:0001631	vomerine tooth
+TAO:0001632	ectopterygoid tooth
+TAO:0001633	entopterygoid tooth
+TAO:0001634	pharyngobranchial 1 cartilage
+TAO:0001635	pharyngobranchial 1 bone
+TAO:0001636	pharyngobranchial 4 bone
+TAO:0001639	perichordal bone
+TAO:0001640	notochordal ossification
+TAO:0001647	pharyngeal tooth plate
+TAO:0001648	basihyal tooth plate
+TAO:0001649	basihyal tooth
+TAO:0001650	pharyngobranchial 2 tooth plate
+TAO:0001651	pharyngobranchial 2 tooth
+TAO:0001652	pharyngobranchial 3 tooth plate
+TAO:0001653	pharyngobranchial 3 tooth
+TAO:0001654	upper pharyngeal 4 tooth plate
+TAO:0001655	upper pharyngeal 4 tooth
+TAO:0001656	upper pharyngeal 5 tooth plate
+TAO:0001657	upper pharyngeal 5 tooth
+TAO:0001658	upper pharyngeal tooth plate
+TAO:0001659	upper pharyngeal tooth
+TAO:0001660	basibranchial tooth
+TAO:0001661	basibranchial tooth plate
+TAO:0001662	basibranchial 4 tooth plate
+TAO:0001663	basibranchial 4 tooth
+TAO:0001664	basibranchial 2 tooth plate
+TAO:0001665	basibranchial 2 tooth
+TAO:0001666	rudimentary neural arch
+TAO:0001667	tooth row
+TAO:0001669	angular bone
+TAO:0001670	articular cartilage
+TAO:0001671	anal fin radial
+TAO:0001672	dorsal fin radial
+TAO:0001673	coronoid process
+TAO:0001674	infraorbital 6
+TAO:0001675	mesethmoid cornu
+TAO:0001676	mesethmoid-premaxillary joint
+TAO:0001677	mesethmoid-nasal joint
+TAO:0001678	mesethmoid-frontal joint
+TAO:0001679	mesethmoid-lateral ethmoid joint
+TAO:0001680	mesethmoid-vomer joint
+TAO:0001681	cornu mesial process
+TAO:0001683	transcapular ligament
+TAO:0001684	ossified transcapular ligament
+TAO:0001685	lateral ethmoid-ectopterygoid ligament
+TAO:0001686	bony shelf above orbit
+TAO:0001687	interopercular-mandibular ligament
+TAO:0001688	palatine cartilage
+TAO:0001689	pterygoquadrate cartilage
+TAO:0001690	anterior cartilage of palatine
+TAO:0001691	posterior cartilage of palatine
+TAO:0001692	median premaxilla
+TAO:0001693	protractor operculi
+TAO:0001694	humerovertebral ligament
+TAO:0001695	mediopharyngobranchial
+TAO:0001696	gongyloid cartilage
+TAO:0001697	transverse radial
+TAO:0001698	anal-fin stay
+TAO:0001699	dorsal-fin stay
+TAO:0001700	caudal-fin stay
+TAO:0001701	basibranchial 5 bone
+TAO:0001702	infraorbital 7
+TAO:0001703	infraorbital 8
+TAO:0001704	infraorbital 9
+TAO:0001705	infraorbital 10
+TAO:0001706	infraorbital 11
+TAO:0001707	infraorbital 12
+TAO:0001708	dermosphenotic
+TAO:0001709	infraorbital series
+TAO:0001710	opercle-interopercle joint
+TAO:0001711	frontal-pterotic joint
+TAO:0001712	snout
+TAO:0001713	caudal principal ray 1
+TAO:0001714	caudal principal ray 2
+TAO:0001715	caudal principal ray 3
+TAO:0001716	caudal principal ray 4
+TAO:0001717	caudal principal ray 5
+TAO:0001718	caudal principal ray 6
+TAO:0001719	caudal principal ray 7
+TAO:0001720	caudal principal ray 8
+TAO:0001721	caudal principal ray 9
+TAO:0001722	caudal principal ray 10
+TAO:0001723	caudal principal ray 11
+TAO:0001724	caudal principal ray 12
+TAO:0001725	caudal principal ray 13
+TAO:0001726	caudal principal ray 14
+TAO:0001727	caudal principal ray 15
+TAO:0001728	caudal principal ray 16
+TAO:0001729	caudal principal ray 17
+TAO:0001730	caudal principal ray 18
+TAO:0001731	caudal principal ray 19
+TAO:0001732	vertebra 5
+TAO:0001733	mesethmoid ventral diverging lamella
+TAO:0001734	posterior process of basipterygium
+TAO:0001735	scapular foramen
+TAO:0001736	foramen
+TAO:0001737	coracoid foramen
+TAO:0001738	fontanel
+TAO:0001739	anterior cranial fontanel
+TAO:0001740	posterior cranial fontanel
+TAO:0001741	trigeminofacial foramen
+TAO:0001742	auditory foramen
+TAO:0001743	fossa
+TAO:0001744	replacement tooth trench
+TAO:0001745	premaxilla replacement tooth trench
+TAO:0001746	dentary replacement tooth trench
+TAO:0001747	lateral mesethmoid wing
+TAO:0001748	superficial ophthalmic nerve foramen
+TAO:0001749	dentary-anguloarticular joint
+TAO:0001750	rib of vertebra 6
+TAO:0001751	rib of vertebra 5
+TAO:0001752	pre-narial cartilage
+TAO:0001753	posttemporal fossa
+TAO:0001754	dorsal fin lepidotrichium 1
+TAO:0001755	dorsal fin lepidotrichium 2
+TAO:0001756	dorsal fin lepidotrichium 3
+TAO:0001757	dorsal fin lepidotrichium 4
+TAO:0001758	dorsal fin lepidotrichium 5
+TAO:0001759	dorsal fin lepidotrichium 6
+TAO:0001760	dorsal fin lepidotrichium 7
+TAO:0001761	pectoral fin lepidotrichium 1
+TAO:0001762	pectoral fin lepidotrichium 2
+TAO:0001763	pectoral fin lepidotrichium 3
+TAO:0001764	pectoral fin lepidotrichium 4
+TAO:0001765	pectoral fin lepidotrichium 5
+TAO:0001766	pectoral fin lepidotrichium 6
+TAO:0001767	pectoral fin lepidotrichium 7
+TAO:0001768	retractor tentaculi
+TAO:0001769	anal fin lepidotrichium 1
+TAO:0001770	anal fin lepidotrichium 2
+TAO:0001771	anal fin lepidotrichium 3
+TAO:0001772	anal fin lepidotrichium 4
+TAO:0001773	anal fin lepidotrichium 5
+TAO:0001774	anal fin lepidotrichium 6
+TAO:0001775	anal fin lepidotrichium 7
+TAO:0001776	pelvic fin lepidotrichium 1
+TAO:0001777	pelvic fin lepidotrichium 2
+TAO:0001778	pelvic fin lepidotrichium 3
+TAO:0001779	pelvic fin lepidotrichium 4
+TAO:0001780	pelvic fin lepidotrichium 5
+TAO:0001781	pelvic fin lepidotrichium 6
+TAO:0001782	pelvic fin lepidotrichium 7
+TAO:0001783	supraoccipital crest
+TAO:0001784	autopalatine-vomer joint
+TAO:0001785	branched dorsal fin ray
+TAO:0001786	unbranched dorsal fin ray
+TAO:0001787	pectoral fin spine
+TAO:0001788	pelvic splint
+TAO:0001789	dorsal fin spine 1
+TAO:0001790	dorsal fin spine 2
+TAO:0001791	pore
+TAO:0001792	pharyngobranchial 3 bone uncinate process
+TAO:0001793	pharyngobranchial 4 bone uncinate process
+TAO:0001794	orbitosphenoid-prootic joint
+TAO:0001795	ceratohyal foramen
+TAO:0001796	epibranchial 2 bone uncinate process
+TAO:0001797	epibranchial 1 bone uncinate process
+TAO:0001798	epicentral
+TAO:0001799	recessus lateralis
+TAO:0001800	cephalic rib
+TAO:0001801	quadrate-hyomandibula joint
+TAO:0001802	quadrate-anguloarticular joint
+TAO:0001803	quadrate-metapterygoid joint
+TAO:0001804	olfactory nerve foramen
+TAO:0001805	articular bone
+TAO:0001806	intracranial diverticulum of swimbladder
+TAO:0001807	preepiotic fossa
+TAO:0001808	facial foramen
+TAO:0001809	trigeminal foramen
+TAO:0001810	supraorbital sensory canal
+TAO:0001811	infraorbital sensory canal
+TAO:0001812	preoperculo-mandibular sensory canal
+TAO:0001813	preopercular sensory canal
+TAO:0001814	mandibular sensory canal
+TAO:0001815	nuchal plate
+TAO:0001816	anterior nuchal plate
+TAO:0001817	middle nuchal plate
+TAO:0001818	dorsal fin proximal radial 1
+TAO:0001819	dorsal fin proximal radial 2
+TAO:0001820	posterior nuchal plate
+TAO:0001821	notochord posterior region
+TAO:0001822	epibranchial 3 bone uncinate process
+TAO:0001823	epibranchial 4 bone uncinate process
+TAO:0001824	lateral line scale
+TAO:0001825	urohyal lateral process
+TAO:0001826	urohyal median process
+TAO:0001827	premaxillary-maxillary ligament
+TAO:0001828	primordial ligament
+TAO:0001829	caudal fin dorsal procurrent ray
+TAO:0001830	caudal fin ventral procurrent ray
+TAO:0001831	pterosphenoid-orbitosphenoid joint
+TAO:0001832	parasphenoid-basioccipital joint
+TAO:0001833	premaxillary tooth row
+TAO:0001838	groove
+TAO:0001840	tip
+TAO:0001841	interhyal-epihyal joint
+TAO:0001842	epihyal-ceratohyal joint
+TAO:0001843	ceratohyal-dorsal hypohyal joint
+TAO:0001844	ceratohyal-ventral hypohyal joint
+TAO:0001845	dorsal hypohyal-ventral hypohyal joint
+TAO:0001846	inter-ventral hypohyal joint
+TAO:0001847	dorsal hypohyal-urohyal joint
+TAO:0001848	ventral hypohyal-urohyal joint
+TAO:0001849	epihyal-branchiostegal ray joint
+TAO:0001850	ceratohyal-branchiostegal ray joint
+TAO:0001851	mandibular symphysis
+TAO:0001852	postcleithrum 1
+TAO:0001853	postcleithrum 2
+TAO:0001854	postcleithrum 3
+TAO:0001855	hyomandibular condyle for the opercle
+TAO:0001856	gill ray
+TAO:0001857	hyoidean artery
+TAO:0001858	suprapharyngobranchial
+TAO:0001859	pharyngobranchial 1 tooth plate
+TAO:0001860	epibranchial 4-upper pharyngeal toothplate joint
+TAO:0001861	epibranchial 3-pharyngobranchial 3 joint
+TAO:0001862	epibranchial 3-pharyngobranchial 4 joint
+TAO:0001863	inter-hypobranchial 3 joint
+TAO:0001864	basibranchial 1 cartilage
+TAO:0001865	basibranchial 4 cartilage
+TAO:0001866	basibranchial 5 cartilage
+TAO:0001867	post-ceratobranchial cartilage
+TAO:0001868	hypohyal cartilage
+TAO:0001869	supraneural 2 cartilage
+TAO:0001870	supraneural 3 cartilage
+TAO:0001871	Weberian ossicle set
+TAO:0001872	trunk sensory canal system
+TAO:0001873	head sensory canal system
+TAO:0001874	basibranchial 2 cartilage
+TAO:0001875	opercular series
+TAO:0001876	basibranchial 3 cartilage
+TAO:0001877	neural arch 1
+TAO:0001878	rib of vertebra 2
+TAO:0001879	rib of vertebra 1
+TAO:0001880	rib of vertebra 3
+TAO:0001881	rib of vertebra 4
+TAO:0001882	parapophysis + rib of vertebra 3
+TAO:0001883	parapophysis + rib of vertebra 3 + rib of vertebra 4
+TAO:0001884	accessory neural arch
+TAO:0001885	neural spine 1
+TAO:0001886	neural spine 2
+TAO:0001887	neural spine 3
+TAO:0001888	supraneural 1 bone
+TAO:0001889	supraneural 1 cartilage
+TAO:0001891	basihyal element
+TAO:0001892	interhyal element
+TAO:0001893	hypobranchial element
+TAO:0001894	hypobranchial 1 element
+TAO:0001895	hypobranchial 2 element
+TAO:0001896	hypobranchial 3 element
+TAO:0001897	hypobranchial 4 element
+TAO:0001898	ceratobranchial element
+TAO:0001899	ceratobranchial 1 element
+TAO:0001900	ceratobranchial 2 element
+TAO:0001901	ceratobranchial 3 element
+TAO:0001902	ceratobranchial 4 element
+TAO:0001903	ceratobranchial 5 element
+TAO:0001904	epibranchial element
+TAO:0001905	epibranchial 1 element
+TAO:0001906	epibranchial 2 element
+TAO:0001907	epibranchial 3 element
+TAO:0001908	epibranchial 4 element
+TAO:0001909	pharyngobranchial element
+TAO:0001910	pharyngobranchial 1 element
+TAO:0001911	pharyngobranchial 2 element
+TAO:0001912	pharyngobranchial 3 element
+TAO:0001913	pharyngobranchial 4 element
+TAO:0001914	basibranchial element
+TAO:0001915	basibranchial 1 element
+TAO:0001916	basibranchial 2 element
+TAO:0001917	basibranchial 3 element
+TAO:0001918	basibranchial 4 element
+TAO:0001919	basibranchial 5 element
+TAO:0001920	pseudotympanum
+TAO:0001921	adipose eyelid
+TAO:0001922	inter-frontal joint
+TAO:0001923	aortic canal
+TAO:0001924	occipital artery foramen
+TAO:0001925	spiracular canal
+TAO:0001926	posterior myodome
+TAO:0001927	anterior myodome
+TAO:0001928	articular fossa of opercle
+TAO:0001929	epioccipital posterior process
+TAO:0001930	accessory vomerine tooth plate
+TAO:0001931	infranuchal scute
+TAO:0001932	sensory canal tubular ossicle
+TAO:0001933	sensory canal tubule
+TAO:0001934	rostral plate
+TAO:0001935	oral disk
+TAO:0001936	posterior nasal barbel
+TAO:0001937	anterior nasal barbel
+TAO:0001938	maxillary barbel
+TAO:0001939	inter-basipterygium joint
+TAO:0001940	vertebra 4-vertebra 5 joint
+TAO:0001941	orbitosphenoid-lateral ethmoid joint
+TAO:0001942	autopalatine-maxillary joint
+TAO:0001943	metapterygoid-autopalatine ligament
+TAO:0001944	lateral ethmoid-autopalatine ligament
+TAO:0001945	mesethmoid-premaxillary ligament
+TAO:0001946	mesethmoid-maxillary ligament
+TAO:0001947	hyomandibular-otic region joint
+TAO:0001948	anal-fin hook
+TAO:0001949	caudal-fin hook
+TAO:0001950	inter-premaxillary joint
+TAO:0001951	skin flap
+TAO:0001952	dentary tooth row
+TAO:0001953	cranial muscle
+TAO:0001954	axial muscle
+TAO:0001956	epibranchial 1 bone proximal cartilage
+TAO:0001957	epibranchial 2 bone proximal cartilage
+TAO:0001958	ceratobranchial 3 bone distal cartilage
+TAO:0001959	ceratobranchial 4 bone proximal cartilage
+TAO:0001960	ceratobranchial 4 bone distal cartilage
+TAO:0001961	ceratobranchial 5 bone distal cartilage
+TAO:0001962	hypobranchial 1 bone distal cartilage
+TAO:0001963	hypobranchial 2 bone distal cartilage
+TAO:0001964	epibranchial 3 bone uncinate process cartilage
+TAO:0001965	epibranchial 4 bone uncinate process cartilage
+TAO:0001966	epibranchial 5 element
+TAO:0001967	orbit
+TAO:0001968	outer mental barbel
+TAO:0001969	inner mental barbel
+TAO:0001970	upper lip
+TAO:0001971	parapophysis 4
+TAO:0001972	intercostal ligament
+TAO:0001973	tooth cusp
+TAO:0001974	subtemporal fossa
+TAO:0001975	suprabranchial artery
+TAO:0001976	interorbital septum
+TAO:0001977	pad
+TAO:0001978	maxillary tooth row
+TAO:0001979	hyomandibula-metapterygoid joint
+TAO:0001980	vertebra 6
+TAO:0001981	vertebra 7
+TAO:0001982	vertebra 8
+TAO:0001983	centrum 1
+TAO:0001984	centrum 2
+TAO:0001985	centrum 3
+TAO:0001986	centrum 4
+TAO:0001987	centrum 5
+TAO:0001988	centrum 6
+TAO:0001989	mandibular-hyoid median cartilage
+TAO:0001990	epibranchial arborescent organ
+TAO:0001991	lateral bone
+TAO:0001992	branched anal fin ray
+TAO:0001993	branched pectoral fin ray
+TAO:0001994	gill raker row
+TAO:0001995	papilla
+TAO:0001996	maxillary canal
+TAO:0001997	parietal-supraoccipital
+TAO:0001998	posttemporal-supracleithrum
+TAO:0001999	posterior cleithral process
+TAO:0002000	posterior dentation of pectoral fin spine
+TAO:0002001	anterior dentation of pectoral fin spine
+TAO:0002002	anterior distal serration of pectoral fin spine
+TAO:0002003	posterior dentation of dorsal fin spine 2
+TAO:0002004	anterior dentation of dorsal fin spine 2
+TAO:0002005	canal plate
+TAO:0002006	axillary pore
+TAO:0002007	supraneural 4 bone
+TAO:0002008	neural lamina
+TAO:0002009	medial cartilage of palatine
+TAO:0002010	hyoideomandibular nerve
+TAO:0002011	lateral fontanel of frontal
+TAO:0002012	dentary foramen
+TAO:0002013	ascending limb of ceratobranchial 5 bone
+TAO:0002014	ascending limb of ceratobranchial 5 cartilage
+TAO:0002015	pharyngobranchial tooth plate
+TAO:0002016	pharyngobranchial 4 tooth plate
+TAO:0002017	anterior limb of ceratobranchial 5 bone
+TAO:0002018	anterior limb of ceratobranchial 5 cartilage
+TAO:0002019	pterotic-posttemporal-supracleithrum
+TAO:0002020	hypomaxilla
+TAO:0002021	ascending process of the parasphenoid
+TAO:0002022	dermethmoid
+TAO:0002023	second preethmoid
+TAO:0002024	mental barbel
+TAO:0002025	optic foramen
+TAO:0002026	pectoral fin proximal radial 1
+TAO:0002027	pectoral fin proximal radial 2
+TAO:0002028	pectoral fin proximal radial 3
+TAO:0002029	pectoral fin proximal radial 4
+TAO:0002030	ventral keel of coracoid
+TAO:0002031	orbital foramen
+TAO:0002032	lateral ethmoid-frontal joint
+TAO:0002033	prootic-pterosphenoid joint
+TAO:0002034	prootic-exoccipital joint
+TAO:0002035	nasal capsule
+TAO:0002036	intromittent organ
+TAO:0002037	electric organ
+TAO:0002038	basioccipital-exoccipital joint
+TAO:0002039	dilatator fossa
+TAO:0002040	inter-coracoid joint
+TAO:0002041	parapophysis 6
+TAO:0002042	parapophysis 5
+TAO:0002043	posterior limb of parapophysis 4
+TAO:0002044	anterior limb of parapophysis 4
+TAO:0002045	foramen magnum
+TAO:0002046	adult
+TAO:0002047	juvenile
+TAO:0002048	larva
+TAO:0002049	alarm substance cell
+TAO:0002050	Schreckstoff
+TAO:0002051	circulus
+TAO:0002052	prootic depression
+TAO:0002053	bony plate
+TAO:0002054	vertebra 5-vertebra 6 joint
+TAO:0002055	vertebra 6 - vertebra 7 joint
+TAO:0002056	hypural 6
+TAO:0002057	gill opening
+TAO:0002058	Weberian complex centrum
+TAO:0002059	posttemporal-parietal joint
+TAO:0002060	lower lip
+TAO:0002061	predorsal vertebra
+TAO:0002062	branched caudal fin ray
+TAO:0002063	nuchal plate series
+TAO:0002064	uroneural 1
+TAO:0002065	ural centrum 1
+TAO:0002066	auditory fenestra
+TAO:0002067	upper hypural set
+TAO:0002068	lower hypural set
+TAO:0002069	distal cartilage of posterior process of basipterygium
+TAO:0002070	internal anterior process of basipterygium
+TAO:0002071	distal cartilage of internal anterior process of basipterygium
+TAO:0002072	middle anterior process of basipterygium
+TAO:0002073	distal cartilage of middle anterior process of basipterygium
+TAO:0002074	external anterior process of basipterygium
+TAO:0002075	distal cartilage of external anterior process of basipterygium
+TAO:0002076	lateral process of basipterygium
+TAO:0002077	lateropterygium
+TAO:0002078	hypural plate
+TAO:0002079	leptocephalous larva
+TAO:0002080	spina occipitalis
+TAO:0002082	basal fulcrum
+TAO:0002083	fringing fulcrum
+TAO:0002084	pleurostyle
+TAO:0002085	ural centrum
+TAO:0002086	pelvic axillary process
+TAO:0002087	pectoral axillary process
+TAO:0002088	interhaemal bone
+TAO:0002089	gular plate
+TAO:0002090	pro-otic fossa
+TAO:0002091	median caudal cartilage
+TAO:0002092	rostral cartilage
+TAO:0002093	palate
+TAO:0002094	dorsal fin pterygiophore 1
+TAO:0002095	third posttemporal fossa
+TAO:0002096	bony plate series
+TAO:0002097	sensory canal pore series
+TAO:0002098	hemal spine series
+TAO:0002099	lateral line scale series
+TAO:0002100	rib series
+TAO:0002101	branchiostegal ray series
+TAO:0002102	epibranchial series
+TAO:0002103	ceratobranchial series
+TAO:0002104	ampullary organ
+TAO:0002105	electrosensory lateral line lobe
+TAO:0002106	eminentia granularis
+TAO:0002107	medullary command nucleus
+TAO:0002108	buccal papilla
+TAO:0002109	uroneural 2
+TAO:0002110	metapterygoid-quadrate fenestra
+TAO:0002111	prootic bulla
+TAO:0002112	preural 3 vertebra
+TAO:0002113	cheek
+TAO:0002114	cotylephore
+TAO:0002115	uroneural 3
+TAO:0002116	epibranchial organ
+TAO:0002117	ovipositor
+TAO:0002118	radius
+TAO:0002119	focus
+TAO:0002120	orbitosphenoid septum
+TAO:0002121	stomach
+TAO:0002122	pouch scale
+TAO:0002123	neural arch 5
+TAO:0002124	nuptial tubercle
+TAO:0002125	caudal-fin organ
+TAO:0002126	caudal-fin ray pump
+TAO:0002127	myorhabdoid bone
+TAO:0002128	cavum sinus imparis
+TAO:0002129	caudal rod
+TAO:0002130	caudal appendage
+TAO:0002131	horizontal septum
+TAO:0002132	hypural 7
+TAO:0002133	dorsal organ
+TAO:0002134	adipose tissue
+TAO:0002135	abductor muscle
+TAO:0002136	adductor muscle
+TAO:0002137	blood vessel
+TAO:0002138	arteriole
+TAO:0002139	afferent arteriole
+TAO:0002140	efferent arteriole
+TAO:0002141	annular ligament
+TAO:0002142	white matter
+TAO:0002143	CNS white matter
+TAO:0002144	anterior catecholaminergic tract
+TAO:0002145	anterior swim bladder bud
+TAO:0002146	apical ectodermal ridge
+TAO:0002147	arrector muscle
+TAO:0002148	xanthoblast
+TAO:0002149	vertebra 9
+TAO:0002150	vertebra 10
+TAO:0002151	vertebra 11
+TAO:0002152	vertebra 12
+TAO:0002153	nephron
+TAO:0002154	opercular cavity
+TAO:0002155	Bowman's layer
+TAO:0002156	brainstem
+TAO:0002157	Descemet's membrane
+TAO:0002158	palatine
+TAO:0002159	caudal basal fulcrum
+TAO:0002160	ural centrum 3
+TAO:0002161	ural centrum 4
+TAO:0002162	ural vertebra
+TAO:0002163	ural vertebra 1
+TAO:0002164	caudal principal ray set
+TAO:0002165	caudal procurrent ray set
+TAO:0002166	pseudourostyle
+TAO:0002167	stegural
+TAO:0002168	preural centrum 1 + ural centrum 1 + ural centrum 2
+TAO:0002169	atrial endocardium
+TAO:0002170	atrioventricular canal endocardium
+TAO:0002171	vascular endothelium
+TAO:0002172	branchial mesenchyme
+TAO:0002173	cardiac neural crest
+TAO:0002174	octaval nerve motor nucleus
+TAO:0002175	rostral octaval nerve motor nucleus
+TAO:0002176	caudal octaval nerve motor nucleus
+TAO:0002177	hindbrain nucleus
+TAO:0002178	telencephalic nucleus
+TAO:0002179	peripheral nucleus of ventral telencephalon
+TAO:0002180	central nucleus of ventral telencephalon
+TAO:0002181	cephalic flexure
+TAO:0002182	cerebellar granule cell
+TAO:0002183	cerebellar white matter
+TAO:0002184	cerebral spinal fluid
+TAO:0002185	climbing fiber
+TAO:0002186	corneal endothelium
+TAO:0002187	corneal epithelium
+TAO:0002188	corneal primordium
+TAO:0002189	corneal stroma
+TAO:0002190	cranial nerve root
+TAO:0002191	diencephalic nucleus
+TAO:0002192	dorsolateral motor nucleus of vagal nerve
+TAO:0002193	dorsolateral septum
+TAO:0002194	endolymphatic duct
+TAO:0002195	epidermal placode
+TAO:0002196	floor plate midbrain region
+TAO:0002197	grey matter
+TAO:0002198	head muscle
+TAO:0002199	hindbrain commissure
+TAO:0002200	hypobranchial muscle
+TAO:0002201	immature eye
+TAO:0002202	intermediate nucleus
+TAO:0002203	immature Schwann cell
+TAO:0002204	lateral nucleus of ventral telencephalon
+TAO:0002205	lens vesicle
+TAO:0002206	macula communis
+TAO:0002207	medial motor nucleus of vagal nerve
+TAO:0002208	mesonephric podocyte
+TAO:0002209	midbrain nucleus
+TAO:0002210	mossy fiber
+TAO:0002211	olfactory granule cell
+TAO:0002212	optic fiber layer
+TAO:0002213	optic nerve head
+TAO:0002214	os suspensorium medial flange
+TAO:0002215	otic vesicle protrusion
+TAO:0002216	otic vesicle ventral protrusion
+TAO:0002217	parasphenoid-pterosphenoid joint
+TAO:0002218	parallel fiber
+TAO:0002219	parvocellular preoptic nucleus
+TAO:0002220	pericardial cavity
+TAO:0002221	pericardial muscle
+TAO:0002222	periventricular nucleus of ventral telencephalon
+TAO:0002223	pillar of the semicircular canal
+TAO:0002224	pleuroperitoneal cavity
+TAO:0002225	posterior pronephric duct
+TAO:0002226	preglomerular nucleus
+TAO:0002227	presumptive atrioventricular canal
+TAO:0002228	presumptive atrium heart tube
+TAO:0002229	presumptive atrium primitive heart tube
+TAO:0002230	presumptive bulbus arteriosus
+TAO:0002231	presumptive cardiac ventricle heart tube
+TAO:0002232	presumptive cardiac ventricle primitive heart tube
+TAO:0002233	presumptive endocardium
+TAO:0002234	presumptive sinus venosus
+TAO:0002235	presumptive ventral mesoderm
+TAO:0002236	pronephric distal early tubule
+TAO:0002237	pronephric podocyte
+TAO:0002238	pronephric proximal convoluted tubule
+TAO:0002239	pronephric proximal straight tubule
+TAO:0002240	Purkinje cell layer corpus cerebelli
+TAO:0002241	Purkinje cell layer valvula cerebelli
+TAO:0002242	scale primordium
+TAO:0002243	statoacoustic (VIII) nucleus
+TAO:0002244	supraoptic tract
+TAO:0002245	tunica externa
+TAO:0002246	tunica interna
+TAO:0002247	ventricular endocardium
+TAO:0002248	supratemporal commissure
+TAO:0002249	ctenius
+TAO:0002250	epural 2
+TAO:0002251	epural 3
+TAO:0002252	epural 1
+TAO:0002253	pyloric caecum
+TAO:0002254	chin
+TAO:0002255	ocular side
+TAO:0002256	blind side
+TAO:0002257	premaxilla dentigerous process
+TAO:0002258	trituration tooth
+TAO:0002259	condyle
+TAO:0002260	premaxillary-maxillary joint
+TAO:0002261	dorsal fin spine
+TAO:0002262	anal fin spine
+TAO:0002263	epineural 1
+TAO:0002264	epineural 2
+TAO:0002265	epineural 3
+TAO:0002266	epineural 4
+TAO:0002267	epineural 5
+TAO:0002268	epineural 6
+TAO:0002269	interarcual cartilage
+TAO:0002270	pelvic fin spine
+TAO:0002271	ventral caudal procurrent ray 2
+TAO:0002272	ventral caudal procurrent ray 1
+TAO:0002273	ctenoid scale
+TAO:0002274	transforming ctenoid scale
+TAO:0002275	Jakubowski's organ
+TAO:0002277	pectoral fin distal radial 1
+TAO:0002279	pectoral fin distal radial 2
+TAO:0002280	pectoral fin distal radial 3
+TAO:0002281	retractor posttemporalis
+TAO:0002282	preopercle-opercle joint
+TAO:0002283	melanophore spot
+TAO:0002284	body marking
+TAO:0002285	cycloid scale
+TAO:0002286	gular region
+TAO:0002287	surangular
+TAO:0002288	aqueous humor
+TAO:0002289	sclera
+TAO:0002290	vitreous
+TAO:0002291	fulcrum
+TAO:0002292	epaxial basal fulcrum
+TAO:0002293	hypaxial basal fulcrum
+TAO:0002294	scute
+TAO:0005000	basal communicating artery
+TAO:0005001	posterior communicating artery
+TAO:0005002	basilar artery
+TAO:0005003	pharyngeal vasculature
+TAO:0005004	aortic arch
+TAO:0005005	aortic arch 1
+TAO:0005006	aortic arch 2
+TAO:0005007	aortic arch 3
+TAO:0005008	aortic arch 4
+TAO:0005009	aortic arch 5
+TAO:0005010	mid cerebral vein
+TAO:0005011	pseudobranchial artery
+TAO:0005012	afferent filamental artery
+TAO:0005013	concurrent branch afferent branchial artery
+TAO:0005014	recurrent branch afferent branchial artery
+TAO:0005015	afferent lamellar arteriole
+TAO:0005016	aortic arch 6
+TAO:0005017	primordial midbrain channel
+TAO:0005018	efferent filamental artery
+TAO:0005019	efferent lamellar arteriole
+TAO:0005020	central artery
+TAO:0005021	cerebellar central artery
+TAO:0005022	opercular artery
+TAO:0005023	hematopoietic system
+TAO:0005024	trunk vasculature
+TAO:0005025	dorsal longitudinal anastomotic vessel
+TAO:0005026	primary head sinus
+TAO:0005027	posterior cerebral vein
+TAO:0005028	ventral wall of dorsal aorta
+TAO:0005029	rostral blood island
+TAO:0005030	dorsal ciliary vein
+TAO:0005031	dorsal longitudinal vein
+TAO:0005032	optic vein
+TAO:0005033	vertebral artery
+TAO:0005034	parachordal vessel
+TAO:0005035	subintestinal vein
+TAO:0005036	supraintestinal artery
+TAO:0005037	tail vasculature
+TAO:0005038	supraintestinal vein
+TAO:0005039	anterior lateral mesoderm
+TAO:0005040	posterior lateral mesoderm
+TAO:0005041	anterior lateral plate mesoderm
+TAO:0005042	posterior lateral plate mesoderm
+TAO:0005043	nevi
+TAO:0005044	optic artery
+TAO:0005045	hyaloid artery
+TAO:0005046	hyaloid vessel
+TAO:0005047	hyaloid vein
+TAO:0005048	primitive prosencephalic artery
+TAO:0005049	prosencephalic artery
+TAO:0005050	palatocerebral artery
+TAO:0005051	communicating vessel palatocerebral artery
+TAO:0005052	anterior mesencephalic central artery
+TAO:0005053	nasal ciliary artery
+TAO:0005054	inner optic circle
+TAO:0005055	median palatocerebral vein
+TAO:0005056	palatocerebral vein
+TAO:0005057	epicardium
+TAO:0005058	ventricular epicardium
+TAO:0005059	trabecular layer
+TAO:0005060	trabecular layer of ventricle
+TAO:0005061	ventricular myocardium
+TAO:0005062	compact layer of ventricle
+TAO:0005063	cardiac conduction system
+TAO:0005064	atrioventricular valve
+TAO:0005065	heart valve
+TAO:0005066	bulbus arteriosus outer layer
+TAO:0005067	bulbus arteriosus middle layer
+TAO:0005068	bulbus arteriosus inner layer
+TAO:0005069	sinoatrial node
+TAO:0005070	atriovetricular node
+TAO:0005071	distal conduction system
+TAO:0005072	endocardial ring
+TAO:0005073	atrioventricular ring
+TAO:0005074	central cardiac conduction system
+TAO:0005075	peripheral cardiac conduction system
+TAO:0005076	primordial vasculature
+TAO:0005077	vascular cord
+TAO:0005078	middle mesencephalic central artery
+TAO:0005079	posterior mesencephalic central artery
+TAO:0005080	anterior mesenteric artery
+TAO:0005081	internal carotid artery
+TAO:0005082	dorsal branch nasal ciliary artery
+TAO:0005083	ventral branch nasal ciliary artery
+TAO:0005084	metencephalic artery
+TAO:0005085	nasal artery
+TAO:0005086	pectoral artery
+TAO:0005087	pectoral vein
+TAO:0005088	posterior mesenteric artery
+TAO:0005089	swim bladder artery
+TAO:0005090	hepatic portal vein
+TAO:0005091	hepatic sinusoid
+TAO:0005092	mesencephalic vein
+TAO:0005093	nasal vein
+TAO:0005094	choroidal vascular plexus
+TAO:0005095	fin vasculature
+TAO:0005096	pectoral fin vasculature
+TAO:0005097	caudal fin vasculature
+TAO:0005098	central ray artery
+TAO:0005099	ray vein
+TAO:0005100	intervessel commissure
+TAO:0005101	interray vessel
+TAO:0005102	presumptive median fin fold
+TAO:0005103	presumptive ventral fin fold
+TAO:0005104	presumptive dorsal fin fold
+TAO:0005105	lymph vessel
+TAO:0005106	longitudinal lateral lymphatic vessel
+TAO:0005107	pectoral lymphatic vessel
+TAO:0005108	facial lymphatic vessel
+TAO:0005109	jugular lymphatic vessel
+TAO:0005110	thoracic duct
+TAO:0005111	medial forebrain bundle
+TAO:0005112	dorsal lateral line
+TAO:0005113	dorsal lateral line neuromast
+TAO:0005114	middle lateral line system
+TAO:0005115	primary posterior lateral line primordium
+TAO:0005116	secondary posterior lateral line primordium
+TAO:0005117	anterior lateral line primordium
+TAO:0005118	middle lateral line primordium
+TAO:0005119	barbel primordium
+TAO:0005120	peritoneum
+TAO:0005121	middle lateral line placode
+TAO:0005122	dorsal axial hypoblast
+TAO:0005123	gut epithelium
+TAO:0005124	intestinal epithelium
+TAO:0005125	intestinal villus
+TAO:0005126	intestinal bulb epithelium
+TAO:0005127	mid intestine epithelium
+TAO:0005128	posterior intestine epithelium
+TAO:0005129	mesentery
+TAO:0005130	dorsal mesentery
+TAO:0005131	parietal peritoneum
+TAO:0005132	visceral peritoneum
+TAO:0005133	ventral mesentery
+TAO:0005134	dental epithelium
+TAO:0005135	primary dental epithelium
+TAO:0005136	inner dental epithelium
+TAO:0005137	outer dental epithelium
+TAO:0005138	dental organ
+TAO:0005139	dental mesenchyme
+TAO:0005141	tooth pulp
+TAO:0005144	ampullary nerve
+TAO:0005145	muscle
+TAO:0005146	area postrema
+TAO:0005147	regenerating tissue
+TAO:0005148	apical epidermal cap
+TAO:0005149	distal epidermal cap
+TAO:0005150	basal regeneration epithelium
+TAO:0005151	gold iridophore
+TAO:0005152	silver iridophore
+TAO:0005153	synovial joint
+TAO:0005154	synovial fluid
+TAO:0005155	cartilaginous joint
+TAO:0005156	fibrous joint
+TAO:0005157	tela chorioidea tectal ventricle
+TAO:0005158	tela chorioidea fourth ventricle
+TAO:0005159	tela chorioidea third ventricle
+TAO:0005160	tela chorioidea telencephalic ventricle
+TAO:0005161	hepatic artery
+TAO:0005162	digestive system duct
+TAO:0005163	bile canaliculus
+TAO:0005164	bile ductule
+TAO:0005165	common bile duct
+TAO:0005166	cystic duct
+TAO:0005167	hepatopancreatic ampulla
+TAO:0005168	central vein
+TAO:0005169	intrahepatic bile duct
+TAO:0005170	extrahepatic duct
+TAO:0005171	duct
+TAO:0005172	left liver lobe
+TAO:0005173	right liver lobe
+TAO:0005174	ventral liver lobe
+TAO:0005175	CoPA
+TAO:0005176	CoSA
+TAO:0005177	VeLD
+TAO:0005178	DoLA
+TAO:0005179	MiP motor neuron
+TAO:0005180	RoP motor neuron
+TAO:0005181	VaP motor neuron
+TAO:0005182	t-interneuron
+TAO:0005183	MiD2i
+TAO:0005184	MiD2cl
+TAO:0005185	MiD2cm
+TAO:0005186	CoB
+TAO:0005187	MiM1
+TAO:0005188	MiR1
+TAO:0005189	MiR2
+TAO:0005190	MiV1
+TAO:0005191	MiV2
+TAO:0005192	RoI2C
+TAO:0005193	RoI2R
+TAO:0005194	RoL1
+TAO:0005195	MiD3cl
+TAO:0005196	MiD3cm
+TAO:0005197	MiD3i
+TAO:0005198	RoL2
+TAO:0005199	RoL2r
+TAO:0005200	RoL2c
+TAO:0005201	RoL3
+TAO:0005202	RoM1c
+TAO:0005203	RoM1r
+TAO:0005204	rostral ventral 3 interneuron
+TAO:0005205	RoM2l
+TAO:0005206	RoM2m
+TAO:0005207	RoM3l
+TAO:0005208	RoM3m
+TAO:0005209	hindbrain interneuron
+TAO:0005210	midbrain interneuron
+TAO:0005211	MeL
+TAO:0005212	MeM
+TAO:0005213	MeLr
+TAO:0005214	MeLc
+TAO:0005215	MeLm
+TAO:0005216	MeM1
+TAO:0005217	CaV
+TAO:0005218	CaD
+TAO:0005219	choroid plexus vascular circuit
+TAO:0005220	larval melanophore stripe
+TAO:0005221	dorsal larval melanophore stripe
+TAO:0005222	ventral larval melanophore stripe
+TAO:0005223	lateral larval melanophore stripe
+TAO:0005224	yolk larval melanophore stripe
+TAO:0005225	median fin radial
+TAO:0005226	median fin proximal radial
+TAO:0005227	protoneuromast
+TAO:0005228	segmented lepidotrichium
+TAO:0005229	optic choroid
+TAO:0005230	CoBL
+TAO:0005231	bifurcate interneuron
+TAO:0005232	MCoD
+TAO:0005233	CiD
+TAO:0005234	CoLA
+TAO:0005235	UCoD
+TAO:0005236	basophilic erythroblast
+TAO:0005237	erythroblast
+TAO:0005238	juxtaglomerular cell
+TAO:0005239	micropylar cell
+TAO:0005240	Kolmer-Agduhr neuron
+TAO:0005241	polychromatophilic erythroblast
+TAO:0005242	multiciliated epithelial cell
+TAO:0005243	single ciliated epithelial cell
+TAO:0005244	auditory epithelial support cell
+TAO:0005245	inter-parietal joint
+TAO:0005246	regeneration fibroblast
+TAO:0005247	CiA
+TAO:0005248	trans-choroid plexus branch
+TAO:0005249	vasculature
+TAO:0005250	capillary
+TAO:0005251	microcirculatory vessels
+TAO:0005252	lymphatic capillary
+TAO:0005253	renal glomerular capsule epithelium
+TAO:0005254	renal glomerular capsule
+TAO:0005255	frontal-parietal joint
+TAO:0005256	intervillus pockets
+TAO:0005257	blood vessel endothelium
+TAO:0005258	lymph vessel endothelium
+TAO:0005259	continuous blood vessel endothelium
+TAO:0005260	fenestrated blood vessel endothelium
+TAO:0005261	sinusoidal blood vessel endothelium
+TAO:0005264	supraoccipital-parietal joint
+TAO:0005265	hyomandibula-opercle joint
+TAO:0005266	pterotic fossa
+TAO:0005267	erector muscle
+TAO:0005268	preopercle horizontal limb-symplectic joint
+TAO:0005269	hypophyseal fenestra
+TAO:0005270	depressor muscle
+TAO:0005271	flexor muscle
+TAO:0005272	immature gonad
+TAO:0005273	intestinal mucosal muscle
+TAO:0005274	smooth muscle
+TAO:0005275	hyomandibular foramen
+TAO:0005276	inclinator muscle
+TAO:0005277	skeletal muscle
+TAO:0005278	preopercle vertical limb-hyomandibula joint
+TAO:0005279	enteric circular muscle
+TAO:0005280	cardiac muscle
+TAO:0005281	renal corpuscle
+TAO:0005283	renal capsular space
+TAO:0005284	glomerular capillary
+TAO:0005285	glomerular basement membrane
+TAO:0005286	lamina densa
+TAO:0005287	lamina rara interna
+TAO:0005288	lamina rara externa
+TAO:0005289	renal duct
+TAO:0005290	proximal convoluted tubule
+TAO:0005291	proximal straight tubule
+TAO:0005292	distal late tubule
+TAO:0005293	distal early tubule
+TAO:0005294	collecting duct
+TAO:0005295	axial blood vessel
+TAO:0005297	cranial blood vessel
+TAO:0005298	cranial lymph vessel
+TAO:0005299	fin blood vessel
+TAO:0005300	fin lymph vessel
+TAO:0005301	pectoral fin blood vessel
+TAO:0005302	pectoral fin lymph vessel
+TAO:0005303	caudal fin lymph vessel
+TAO:0005304	caudal fin blood vessel
+TAO:0005305	kidney vasculature
+TAO:0005306	kidney blood vessel
+TAO:0005309	pronephric glomerular capillary
+TAO:0005310	pronephric glomerular capsule
+TAO:0005311	pronephric glomerular capsule epithelium
+TAO:0005312	pronephric capsular space
+TAO:0005313	pronephric glomerular basement membrane
+TAO:0005315	venule
+TAO:0005316	fin fold pectoral fin bud
+TAO:0005317	pectoral fin fold
+TAO:0005318	lymph node
+TAO:0005319	intersegmental lymph vessel
+TAO:0005320	dorsal longitudinal lymphatic vessel
+TAO:0005321	vascular smooth muscle
+TAO:0005322	renal principal cell
+TAO:0005323	ionocyte
+TAO:0005324	gill ionocyte
+TAO:0005325	integument ionocyte
+TAO:0005326	NaK ionocyte
+TAO:0005327	vH ionocyte
+TAO:0005328	iridoblast
+TAO:0005329	leucoblast
+TAO:0005331	pigment erythroblast
+TAO:0005332	cyanoblast
+TAO:0005333	tongue
+TAO:0005334	lip epithelium
+TAO:0005335	swim bladder bud
+TAO:0005336	presumptive swim bladder
+TAO:0005338	posterior recess
+TAO:0005339	nucleus of the lateral recess
+TAO:0005340	nucleus of the posterior recess
+TAO:0005341	medial longitudinal catecholaminergic tract
+TAO:0005343	endohypothalamic tract
+TAO:0005344	preopticohypothalamic tract
+TAO:0005346	extrapancreatic duct
+TAO:0005365	dorsal fin pterygiophore 2
+TAO:0005366	dorsal fin pterygiophore 3
+TAO:0005367	dorsal fin pterygiophore 4
+TAO:0005368	dorsal fin pterygiophore 5
+TAO:0005369	dorsal fin pterygiophore 6
+TAO:0005370	dorsal fin pterygiophore 7
+TAO:0005371	dorsal fin pterygiophore 8
+TAO:0005372	dorsal fin distal radial 1
+TAO:0005373	dorsal fin distal radial 2
+TAO:0005374	dorsal fin distal radial 3
+TAO:0005375	dorsal fin distal radial 4
+TAO:0005376	dorsal fin distal radial 5
+TAO:0005377	dorsal fin distal radial 6
+TAO:0005378	dorsal fin distal radial 7
+TAO:0005379	dorsal fin distal radial 8
+TAO:0005380	dorsal fin proximal radial 3
+TAO:0005381	dorsal fin proximal radial 4
+TAO:0005382	dorsal fin proximal radial 5
+TAO:0005383	dorsal fin proximal radial 6
+TAO:0005384	dorsal fin proximal radial 7
+TAO:0005385	dorsal fin proximal radial 8
+TAO:0005409	pars superior ear
+TAO:0005410	pars inferior ear
+TAO:0005411	common crus
+TAO:0005412	transverse canal
+TAO:0005413	perilymph
+TAO:0005414	endolymph
+TAO:0005415	inner ear foramen
+TAO:0005416	sacculoagenar foramen
+TAO:0005425	serous membrane
+TAO:0006000	intermediate hypothalamus
+TAO:0007000	macula saccule
+TAO:0007001	dorso-rostral cluster
+TAO:0007002	ventro-rostral cluster
+TAO:0007003	ventro-caudal cluster
+TAO:0007004	epiphysial cluster
+TAO:0007005	hemal prezygapophysis
+TAO:0007006	lip
+TAO:0007007	pallium
+TAO:0007008	ventral intermandibularis anterior
+TAO:0007009	nerve
+TAO:0007010	eminentia thalami
+TAO:0007011	vagal root
+TAO:0007012	lateral forebrain bundle
+TAO:0007013	preplacodal ectoderm
+TAO:0007014	anterior presumptive neural plate
+TAO:0007015	posterior presumptive neural plate
+TAO:0007016	anterior neural plate
+TAO:0007017	posterior neural plate
+TAO:0007018	forebrain neural plate
+TAO:0007019	midbrain neural plate
+TAO:0007020	forebrain midbrain boundary neural plate
+TAO:0007021	spinal cord neural plate
+TAO:0007022	hindbrain neural plate
+TAO:0007023	posterior neural keel
+TAO:0007024	anterior neural keel
+TAO:0007025	midbrain neural keel
+TAO:0007026	forebrain neural keel
+TAO:0007027	forebrain midbrain boundary neural keel
+TAO:0007028	spinal cord neural keel
+TAO:0007029	hindbrain neural keel
+TAO:0007030	posterior neural rod
+TAO:0007031	anterior neural rod
+TAO:0007032	midbrain neural rod
+TAO:0007033	forebrain midbrain boundary neural rod
+TAO:0007034	forebrain neural rod
+TAO:0007035	spinal cord neural rod
+TAO:0007036	hindbrain neural rod
+TAO:0007037	posterior neural tube
+TAO:0007038	anterior neural tube
+TAO:0007039	midbrain neural tube
+TAO:0007040	forebrain midbrain boundary neural tube
+TAO:0007041	forebrain neural tube
+TAO:0007042	spinal cord neural tube
+TAO:0007043	hindbrain neural tube
+TAO:0007044	midbrain hindbrain boundary neural plate
+TAO:0007045	midbrain hindbrain boundary neural keel
+TAO:0007046	midbrain hindbrain boundary neural rod
+TAO:0007047	midbrain hindbrain boundary neural tube
+TAO:0007048	ventral intermandibularis posterior
+TAO:0007049	adductor mandibulae
+TAO:0007050	constrictor dorsalis
+TAO:0007051	ventral interhyoideus
+TAO:0007052	hyohyoideus
+TAO:0007053	dorsal adductor hyomandibulae
+TAO:0007054	pillar of the anterior semicircular canal
+TAO:0007055	pillar of the lateral semicircular canal
+TAO:0007057	ocular blood vessel
+TAO:0007058	roof plate
+TAO:0007059	neurogenic field
+TAO:0007060	dorsolateral field
+TAO:0007061	epibranchial field
+TAO:0007062	olfactory field
+TAO:0007063	neural crest hindbrain
+TAO:0007064	mandibular neural crest
+TAO:0007065	hyoid neural crest
+TAO:0007066	glossopharyngeal neural crest
+TAO:0007067	vagal ganglion
+TAO:0009001	receptor cell (sensu Animalia)
+TAO:0009002	early embryonic cell
+TAO:0009004	trunk neural crest cell
+TAO:0009005	spermatocyte
+TAO:0009006	sperm
+TAO:0009007	spermatogonium
+TAO:0009008	egg
+TAO:0009009	neuron neural crest derived
+TAO:0009010	glioblast
+TAO:0009011	neuroblast
+TAO:0009012	neuroplacodal cell
+TAO:0009013	single fate stem cell
+TAO:0009014	hematopoietic stem cell
+TAO:0009015	erythroid progenitor cell
+TAO:0009016	germ line cell
+TAO:0009017	monoblast
+TAO:0009018	neutrophilic myeloblast
+TAO:0009019	neuronal stem cell
+TAO:0009020	multi fate stem cell
+TAO:0009021	common myeloid progenitor
+TAO:0009022	megakaryocyte erythroid progenitor cell
+TAO:0009023	common lymphocyte progenitor
+TAO:0009024	totipotent stem cell
+TAO:0009025	myoblast
+TAO:0009026	fibroblast
+TAO:0009032	ciliated cell
+TAO:0009033	ependymal cell
+TAO:0009035	ciliated epithelial cell
+TAO:0009036	blood vessel endothelial cell
+TAO:0009037	barrier epithelial cell
+TAO:0009038	columnar/cuboidal epithelial cell
+TAO:0009039	squamous epithelial cell
+TAO:0009040	mesothelial cell
+TAO:0009041	peridermal cell
+TAO:0009042	stratified epithelial cell
+TAO:0009043	circulating cell
+TAO:0009044	blood cell
+TAO:0009045	epithelial cell of pancreas
+TAO:0009046	T cell
+TAO:0009047	osteoclast
+TAO:0009048	granulocyte
+TAO:0009049	mature neutrophil
+TAO:0009050	sensory epithelial cell
+TAO:0009051	interneuron
+TAO:0009052	motor neuron
+TAO:0009053	sensory neuron
+TAO:0009054	polymodal neuron
+TAO:0009055	bipolar neuron
+TAO:0009056	multipolar neuron
+TAO:0009057	pseudounipolar neuron
+TAO:0009058	unipolar neuron
+TAO:0009059	autonomic neuron
+TAO:0009060	cholinergic neuron
+TAO:0009061	adrenergic neuron
+TAO:0009062	peptidergic neuron
+TAO:0009063	peripheral neuron
+TAO:0009064	mononuclear phagocyte
+TAO:0009065	endothelial cell
+TAO:0009066	pioneer neuron
+TAO:0009067	CNS neuron (sensu Vertebrata)
+TAO:0009068	basket cell
+TAO:0009069	Golgi cell
+TAO:0009070	granule cell
+TAO:0009071	Purkinje cell
+TAO:0009072	stellate cell
+TAO:0009073	glial cell
+TAO:0009074	macroglial cell
+TAO:0009075	astrocyte
+TAO:0009076	oligodendrocyte
+TAO:0009077	microglial cell
+TAO:0009078	gut endothelial cell
+TAO:0009079	corneal endothelial cell
+TAO:0009080	neurectodermal cell
+TAO:0009082	fat cell
+TAO:0009088	professional antigen presenting cell
+TAO:0009089	simple columnar epithelial cell
+TAO:0009090	pigment cell
+TAO:0009091	melanocyte
+TAO:0009092	exocrine cell
+TAO:0009093	GAG secreting cell
+TAO:0009094	goblet cell
+TAO:0009095	acid secreting cell
+TAO:0009096	endocrine cell
+TAO:0009097	enteroendocrine cell
+TAO:0009098	neuroendocrine cell
+TAO:0009099	chromaffin cell
+TAO:0009100	peptide hormone secreting cell
+TAO:0009101	insulin secreting cell
+TAO:0009102	pancreatic B cell
+TAO:0009103	glucagon secreting cell
+TAO:0009104	pancreatic A cell
+TAO:0009105	somatostatin secreting cell
+TAO:0009106	steroid hormone secreting cell
+TAO:0009107	testosterone secreting cell
+TAO:0009108	Leydig cell
+TAO:0009109	progesterone secreting cell
+TAO:0009110	estradiol secreting cell
+TAO:0009111	hepatocyte
+TAO:0009112	pericyte
+TAO:0009113	myoepithelial cell
+TAO:0009114	muscle cell
+TAO:0009115	skeletal muscle cell
+TAO:0009116	slow muscle cell
+TAO:0009117	fast muscle cell
+TAO:0009118	smooth muscle cell
+TAO:0009119	pain receptor cell
+TAO:0009120	mechanoreceptor cell
+TAO:0009121	auditory receptor cell
+TAO:0009123	thermoreceptor cell
+TAO:0009124	chemoreceptor cell
+TAO:0009125	olfactory receptor cell
+TAO:0009126	taste receptor cell
+TAO:0009127	photoreceptor cell
+TAO:0009128	electrically active cell
+TAO:0009129	absorptive cell
+TAO:0009130	lining cell
+TAO:0009131	synovial cell
+TAO:0009132	barrier cell
+TAO:0009133	Sertoli cell
+TAO:0009134	insulating cell
+TAO:0009135	Schwann cell
+TAO:0009136	motile cell
+TAO:0009137	ectodermal cell
+TAO:0009139	endodermal cell
+TAO:0009140	phagocyte
+TAO:0009141	macrophage
+TAO:0009142	B cell
+TAO:0009143	brush border epithelial cell
+TAO:0009144	stratified squamous epithelial cell
+TAO:0009145	stratified cuboidal epithelial cell
+TAO:0009146	Merkel cell
+TAO:0009147	glial cell (sensu Vertebrata)
+TAO:0009148	transitional epithelial cell
+TAO:0009149	Mauthner neuron
+TAO:0009150	Rohon-Beard neuron
+TAO:0009151	hatching gland cell
+TAO:0009152	extramedullary cell
+TAO:0009153	eurydendroid cell
+TAO:0009154	eye photoreceptor cell
+TAO:0009155	somatotropin secreting cell
+TAO:0009156	gamete
+TAO:0009157	keratin accumulating cell
+TAO:0009158	keratinocyte
+TAO:0009159	mucus secreting cell
+TAO:0009160	seminal fluid secreting cell
+TAO:0009161	metanephric mesenchyme stem cell
+TAO:0009162	extracellular matrix secreting cell
+TAO:0009163	myelin accumulating cell
+TAO:0009164	oxygen accumulating cell
+TAO:0009166	mesenchyme condensation cell
+TAO:0009167	adrenal medulla cell
+TAO:0009168	neuroblast (sensu Vertebrata)
+TAO:0009169	glioblast (sensu Vertebrata)
+TAO:0009170	pigment cell (sensu Vertebrata)
+TAO:0009171	visual pigment cell (sensu Vertebrata)
+TAO:0009172	non-visual cell (sensu Vertebrata)
+TAO:0009173	dental papilla cell
+TAO:0009174	scleral cell
+TAO:0009175	choroidal cell
+TAO:0009176	extraembryonic cell
+TAO:0009177	blastoderm cell
+TAO:0009178	blastemal cell
+TAO:0009179	muscle stem cell
+TAO:0009180	stratified epithelial stem cell
+TAO:0009181	vascular associated smooth muscle cell
+TAO:0009182	gastrula cell
+TAO:0009183	epidermal cell
+TAO:0009184	osteoprogenitor cell
+TAO:0009185	sensory processing neuron
+TAO:0009186	neurosecretory neuron
+TAO:0009187	nephrogenic mesenchyme stem cell
+TAO:0009188	ligament cell
+TAO:0009189	tendon cell
+TAO:0009190	electrically responsive cell
+TAO:0009191	CNS interneuron
+TAO:0009193	electrically signaling cell
+TAO:0009194	CNS short range interneuron
+TAO:0009195	CNS long range interneuron
+TAO:0009196	hypodermal cell
+TAO:0009197	yolk cell
+TAO:0009198	xanthophore
+TAO:0009199	iridophore
+TAO:0009200	reticular cell
+TAO:0009201	alkali secreting cell
+TAO:0009202	follicle stimulating hormone secreting cell
+TAO:0009203	luteinizing hormone secreting cell
+TAO:0009204	prolactin secreting cell
+TAO:0009205	melanocyte stimulating hormone secreting cell
+TAO:0009206	calcitonin secreting cell
+TAO:0009207	parathyroid hormone secreting cell
+TAO:0009208	lipocyte
+TAO:0009209	dendritic cell
+TAO:0009210	thyroid hormone secreting cell
+TAO:0009211	epinephrin secreting cell
+TAO:0009212	biogenic amine secreting cell
+TAO:0009213	serotonin secreting cell
+TAO:0009214	norepinephrin secreting cell
+TAO:0009215	glucocorticoid secreting cell
+TAO:0009216	adrenocorticotropic hormone secreting cell
+TAO:0009217	digestive enzyme secreting cell
+TAO:0009218	thyroid stimulating hormone secreting cell
+TAO:0009219	visible light photoreceptor cell
+TAO:0009220	photopic photoreceptor cell
+TAO:0009221	UV sensitive photoreceptor cell
+TAO:0009222	blue sensitive photoreceptor cell
+TAO:0009223	green sensitive photoreceptor cell
+TAO:0009224	red sensitive photoreceptor cell
+TAO:0009225	inhibitory interneuron
+TAO:0009226	stromal cell
+TAO:0009227	granulosa cell
+TAO:0009228	D cell
+TAO:0009229	theca cell
+TAO:0009230	substance P secreting cell
+TAO:0009231	enkephalin secreting cell
+TAO:0009232	endorphin secreting cell
+TAO:0009233	paracrine cell
+TAO:0009234	cardiac muscle myoblast
+TAO:0009235	smooth muscle myoblast
+TAO:0009236	skeletal muscle myoblast
+TAO:0009237	perineuronal satellite cell
+TAO:0009238	afferent neuron
+TAO:0009239	efferent neuron
+TAO:0009240	nitrergic neuron
+TAO:0009241	pigmented epithelial cell
+TAO:0009242	primary neuron
+TAO:0009243	CAP motoneuron
+TAO:0009244	primary motor neuron
+TAO:0009245	primary interneuron
+TAO:0009246	secondary neuron
+TAO:0009247	secondary motor neuron
+TAO:0009248	neuron
+TAO:0009249	melanoblast
+TAO:0009250	lymphocyte
+TAO:0009251	granulocyte monocyte progenitor cell
+TAO:0009252	reticulocyte
+TAO:0009253	promonocyte
+TAO:0009254	band form neutrophil
+TAO:0009255	amacrine cell
+TAO:0009256	nucleate erythrocyte
+TAO:0009257	neutrophilic promyelocyte
+TAO:0009258	angioblastic mesenchymal cell
+TAO:0009259	cardiac mesenchymal cell
+TAO:0009260	parafollicular cell
+TAO:0009261	leucophore
+TAO:0009262	retinal cone cell
+TAO:0009263	erythrophore
+TAO:0009264	corneal epithelial cell
+TAO:0009265	monocyte
+TAO:0009266	neutrophilic myelocyte
+TAO:0009267	peritoneal macrophage
+TAO:0009268	neutrophilic metamyelocyte
+TAO:0009269	enterocyte
+TAO:0009270	odontoclast
+TAO:0009271	androgen secreting cell
+TAO:0009272	skeletal muscle satellite cell
+TAO:0009273	pyramidal cell
+TAO:0009274	pressoreceptor cell
+TAO:0009275	retinal rod cell
+TAO:0009276	GABAergic neuron
+TAO:0009277	acinar cell
+TAO:0009278	natural killer cell
+TAO:0009279	ito cell
+TAO:0009280	Muller cell
+TAO:0009281	folliculostellate cell
+TAO:0009282	Bergmann glial cell
+TAO:0009283	mesangial cell
+TAO:0009284	pinealocyte
+TAO:0009285	podocyte
+TAO:0009286	fenestrated cell
+TAO:0009287	collagen secreting cell
+TAO:0009288	primordial germ cell
+TAO:0009289	gut absorptive cell
+TAO:0009290	glutamatergic neuron
+TAO:0009291	muscle precursor cell
+TAO:0009292	radial glial cell
+TAO:0009293	M cell
+TAO:0009294	ependymoglial cell
+TAO:0009295	cerebrospinal fluid secreting cell
+TAO:0009296	perijunctional fibroblast
+TAO:0009297	stellate interneuron
+TAO:0009298	terminal Schwann cell
+TAO:0009299	neuroglioform cell
+TAO:0009300	Cajal-Retzius cell
+TAO:0009301	dopaminergic neuron
+TAO:0009302	sustentacular cell
+TAO:0009303	endothelial tip cell
+TAO:0009304	choroid plexus epithelial cell
+TAO:0009305	leptomemingeal cell
+TAO:0009306	neuroepithelial cell
+TAO:0009307	somatic stem cell
+TAO:0009308	urothelial cell
+TAO:0009309	leukocyte
+TAO:0009310	retinal ganglion cell
+TAO:0009311	spinal accessory motor neuron
+TAO:0009315	horizontal cell
+TAO:0009316	cardiac muscle cell
+TAO:0009317	cyanophore
+TAO:0009318	retinal bipolar neuron
+TAO:0009319	ON-bipolar cell
+TAO:0009320	OFF-bipolar cell
+TAO:0009321	rod bipolar cell
+TAO:0009322	cone retinal bipolar cell
+TAO:0009323	thrombocyte
+TAO:0009324	myeloid cell
+TAO:0009325	erythroid lineage cell
+TAO:0009326	myeloid leukocyte
+TAO:0009327	neutrophil
+TAO:0009328	immature neutrophil
+TAO:0009329	mononuclear osteoclast
+TAO:0009330	mononuclear odontoclast
+TAO:0009331	mature B cell
+TAO:0009332	plasma cell
+TAO:0009333	memory B cell
+TAO:0009334	naive B cell
+TAO:0009335	alpha-beta T cell
+TAO:0009336	gamma-delta T cell
+TAO:0009337	immature gamma-delta T cell
+TAO:0009338	mature gamma-delta T cell
+TAO:0009339	gamma-delta intraepithelial T cell
+TAO:0009340	immature T cell
+TAO:0009341	mature T cell
+TAO:0009342	memory T cell
+TAO:0009343	immature B cell
+TAO:0009344	pre-B cell
+TAO:0009345	transitional stage B cell
+TAO:0009346	immature natural killer cell
+TAO:0009347	mature natural killer cell
+TAO:0009348	natural killer cell progenitor
+TAO:0009349	pro-B cell
+TAO:0009350	pro-T cell
+TAO:0009351	thromboblast
+TAO:0009352	neutrophil progenitor cell
+TAO:0009353	myeloblast
+TAO:0009354	hematopoietic progenitor cell
+TAO:0009355	lymphoid progenitor cell
+TAO:0009356	myeloid progenitor cell
+TAO:0009357	mononuclear cell
+TAO:0009358	ciliated olfactory receptor neuron
+TAO:0009359	microvillous olfactory receptor neuron
+TAO:0009360	crypt olfactory receptor neuron
+TAO:0009361	serotonergic neuron
+TAO:0009362	neuromast mantle cell
+TAO:0009363	neuromast support cell
+TAO:0009364	olfactory epithelial support cell
+TAO:0009365	interneuromast cell
+TAO:0009366	hair cell
+TAO:0009367	neuromast hair cell
+TAO:0009368	slow muscle myoblast
+TAO:0009369	fast muscle myoblast
+TAO:0009370	stretch receptor cell
+TAO:0009371	stratified keratinized epithelial stem cell
+VSAO:0000000	cartilage element
+VSAO:0000001	surface structure
+VSAO:0000003	permanent cartilage
+VSAO:0000006	cell condensation
+VSAO:0000013	mineralized tissue
+VSAO:0000015	skeletal tissue
+VSAO:0000017	connective tissue
+VSAO:0000020	mineralized extracellular matrix
+VSAO:0000021	proteinaceous extracellular matrix
+VSAO:0000022	extracellular matrix
+VSAO:0000023	membrane bone
+VSAO:0000025	odontogenic papilla
+VSAO:0000026	skeleton
+VSAO:0000027	skeletal system
+VSAO:0000028	integumentary papilla
+VSAO:0000029	integument
+VSAO:0000030	oropharyngeal papilla
+VSAO:0000031	musculoskeletal system
+VSAO:0000032	notochord
+VSAO:0000033	muscular system
+VSAO:0000034	oropharynx
+VSAO:0000035	dermal skeleton
+VSAO:0000036	perichondrium
+VSAO:0000037	endoskeleton
+VSAO:0000040	cartilage tissue
+VSAO:0000042	skeletal subdivision
+VSAO:0000046	osteoid
+VSAO:0000047	bone tissue
+VSAO:0000048	scale
+VSAO:0000049	cranial skeleton
+VSAO:0000050	dense regular connective tissue
+VSAO:0000051	lepidosteoid scale
+VSAO:0000052	ganoid scale
+VSAO:0000053	vacuolated notochordal tissue
+VSAO:0000054	perichordal tissue
+VSAO:0000055	polypteroid scale
+VSAO:0000056	axial skeleton
+VSAO:0000057	bone element
+VSAO:0000059	avascular GAG-rich matrix
+VSAO:0000062	cementum
+VSAO:0000063	odontoid tissue
+VSAO:0000065	enamel
+VSAO:0000066	pre-enamel
+VSAO:0000067	paired appendage
+VSAO:0000069	dentine
+VSAO:0000070	elasmoid scale
+VSAO:0000071	pre-dentine
+VSAO:0000072	ligament
+VSAO:0000073	tendon
+VSAO:0000074	palaeoniscoid scale
+VSAO:0000075	appendage
+VSAO:0000076	appendicular skeleton
+VSAO:0000077	non-mineralized chondroid tissue
+VSAO:0000078	chondroid tissue
+VSAO:0000079	odontode scale
+VSAO:0000080	keratin-based scale
+VSAO:0000081	cosmoid scale
+VSAO:0000082	craniofacial skeleton
+VSAO:0000083	craniofacial region
+VSAO:0000086	secondary cartilage tissue
+VSAO:0000087	cosmine
+VSAO:0000088	mineralized cartilage tissue
+VSAO:0000089	non-mineralized cartilage tissue
+VSAO:0000090	integumentary skeleton
+VSAO:0000091	elastic cartilage tissue
+VSAO:0000092	chondrogenic condensation
+VSAO:0000093	postcranial axial skeleton
+VSAO:0000094	hyaline cartilage tissue
+VSAO:0000097	orthodentine
+VSAO:0000099	fin
+VSAO:0000101	joint
+VSAO:0000102	osteodentine
+VSAO:0000103	fibrocartilage
+VSAO:0000104	ganoine
+VSAO:0000105	limiting layer of elasmoid scale
+VSAO:0000106	vasodentine
+VSAO:0000107	elasmodine
+VSAO:0000108	non-mineralized hyaline cartilage tissue
+VSAO:0000109	mineralized hyaline cartilage tissue
+VSAO:0000110	columnar chondrocyte
+VSAO:0000111	paired fin
+VSAO:0000113	enameloid
+VSAO:0000114	pre-enameloid
+VSAO:0000115	mineralized bone tissue
+VSAO:0000118	cellular bone tissue
+VSAO:0000119	non-mineralized avascular GAG-rich matrix
+VSAO:0000120	mineralized avascular GAG-rich matrix
+VSAO:0000121	free limb
+VSAO:0000122	acellular bone tissue
+VSAO:0000123	odontode tissue
+VSAO:0000125	pectoral appendage
+VSAO:0000126	pelvic appendage
+VSAO:0000127	gastralium
+VSAO:0000128	skeletal element
+VSAO:0000129	pelvic fin
+VSAO:0000130	dermal bone
+VSAO:0000131	appendicular ossicle
+VSAO:0000132	ossicle
+VSAO:0000133	axial ossicle
+VSAO:0000134	ossified tendon
+VSAO:0000135	replacement element
+VSAO:0000137	sesamoid
+VSAO:0000138	ligamentous replacement element
+VSAO:0000139	endochondral element
+VSAO:0000145	endochondral bone
+VSAO:0000146	transient cartilaginous element
+VSAO:0000147	pectoral fin
+VSAO:0000148	forelimb
+VSAO:0000149	pharyngeal arch
+VSAO:0000150	hindlimb
+VSAO:0000151	forelimb skeleton
+VSAO:0000152	hindlimb skeleton
+VSAO:0000153	pectoral fin skeleton
+VSAO:0000154	pelvic fin skeleton
+VSAO:0000155	pelvic girdle skeleton
+VSAO:0000156	pectoral girdle skeleton
+VSAO:0000157	scapula
+VSAO:0000158	coracoid
+VSAO:0000159	ossified ligament
+VSAO:0000160	anocleithrum
+VSAO:0000161	interclavicle
+VSAO:0000162	median fin
+VSAO:0000163	anal fin
+VSAO:0000164	caudal fin
+VSAO:0000165	dorsal fin
+VSAO:0000166	anal fin skeleton
+VSAO:0000167	caudal fin skeleton
+VSAO:0000168	dorsal fin skeleton
+VSAO:0000169	paired fin skeleton
+VSAO:0000170	median fin skeleton
+VSAO:0000171	scapular complex
+VSAO:0000172	lepidotrichium
+VSAO:0000173	pelvic fin lepidotrichium
+VSAO:0000174	caudal fin lepidotrichium
+VSAO:0000175	pectoral fin lepidotrichium
+VSAO:0000176	anal fin lepidotrichium
+VSAO:0000177	dorsal fin lepidotrichium
+VSAO:0000178	embryonic structure
+VSAO:0000179	fin bud
+VSAO:0000180	process
+VSAO:0000181	articular system
+VSAO:0000182	suprabranchial fin
+VSAO:0000183	vertebral centrum
+VSAO:0000184	vertebral element
+VSAO:0000185	vertebral column
+VSAO:0000186	femur
+VSAO:0000213	pectoral appendage/girdle complex
+VSAO:0000214	appendage/girdle complex
+VSAO:0000215	pelvic appendage/girdle complex
+VSAO:0000300	free limb skeleton
+VSAO:0000301	limb/fin skeleton
+VSAO:0000302	girdle skeleton
+VSAO:0000303	appendage girdle region
+VSAO:0000304	pelvic girdle region
+VSAO:0000305	pectoral girdle region
+VSAO:0000306	appendicular skeletal system
+VSAO:0000307	perichordal bone
+VSAO:0000308	perichondral bone
+VSAO:0005007	stylopodial skeleton
+VSAO:0005010	zeugopodial skeleton
+VSAO:0005019	autopodial skeleton
+VSAO:0005022	mesopodial skeleton
+VSAO:0005025	metapodial skeleton
+VSAO:0005028	acropodial skeleton
