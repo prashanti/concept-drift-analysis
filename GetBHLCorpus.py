@@ -1,6 +1,6 @@
 def getTitleIDs():
 	global titleids
-	inp=open('title_parsed.xls','r')
+	inp=open('./InputFiles/title_parsed.xls','r')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -12,7 +12,7 @@ def getTitleIDs():
 def getItemIDs():
 	global titleids
 	global itemids_dict
-	inp=open('item_parsed.xls','r')
+	inp=open('./InputFiles/item_parsed.xls','r')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -25,7 +25,7 @@ def getItemIDs():
 
 def getVertebrateTitleIDs():
 	global vertebratetitleids
-	inp=open('subject.txt','r')
+	inp=open('./InputFiles/subject.txt','r')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -37,7 +37,7 @@ def getVertebrateTitleIDs():
 
 def getVertebratePartIDs():
 	global vertebratepartids
-	inp=open('part_parsed.xls','r')
+	inp=open('./InputFiles/part_parsed.xls','r')
 	#PartID	ItemID	ContributorName	SequenceOrder	SegmentType	Title	ContainerTitle	PublicationDetails	Volume	Series	Issue	Date	PageRange	StartPageID	LanguageName	SegmentUrl	ExternalUrl	DownloadUrl	
 	for line in inp:
 		if "PartID" not in line:
@@ -76,7 +76,7 @@ def main():
 	getVertebratePartIDs()
 	getPageIDsforPartId()
 	
-	f=open('BHLCorpus.txt','w')
+	f=open('./InputFiles/BHLCorpus.txt','w')
 	for titleid in vertebratetitleids:
 			for item in itemids_dict[titleid]:
 				if subjectlimit >0:

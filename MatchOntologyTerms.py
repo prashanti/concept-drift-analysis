@@ -1,9 +1,13 @@
 
 def stemOntologyIDs():
-	inp=open("TAO_Names.xls",'r')
+	global taoid2name
+	inp=open("./InputFiles/TAO_Names.xls",'r')
 	for line in inp:
 		data=line.split("\t")
 		name=data[1].strip()
+		ontid=data[0].strip()
+		if name not in taoid2name:
+			taoid2name[name]=ontid
 		temp_dict=dict()
 		temp_dict=getStemmedString(name)
 		stemmedname=temp_dict['StemmedString']
@@ -13,8 +17,8 @@ def stemOntologyIDs():
 		if name not in taoids_stem:
 			taoids_stem[name]=set()
 		taoids_stem[name].add(stemmedname)
-
 		ontologystems.add(stemmedname)
+		
 
 def getStemmedString(string):
 	temp_dict=dict()
@@ -38,6 +42,7 @@ def getOriginalTextinLine(temp_dict, line):
 	for stem in data:
 		origline=origline+" "+temp_dict[stem]
 	return(origline.strip())
+
 	
 def clean(line):
 	line=line.replace(":","")
@@ -49,28 +54,36 @@ def clean(line):
 	return line
 
 def main():
-	inp=open("BHLCorpus.txt",'r')
+	inp=open("./InputFiles/BHLCorpus.txt",'r')
+	out=open("./InputFiles/BHLCorpus_Annotated.txt",'w')
 	stemOntologyIDs()
 	tempstem2text=dict()
 	for line in inp:
 		clean_line=clean(line)
-		#line="something is male organism is found somewhere"
 		tempstem2text=getStemmedString(line)
 		stemmedline=tempstem2text['StemmedString']
 		matched_dict={}
+		matched=0
 		for stemmedterm in ontologystems:
 			if word_in(stemmedterm, stemmedline):
 				origline=getOriginalTextinLine(tempstem2text,stemmedline)
 				origontterm=stem2id[stemmedterm]
 				origlineterm=getOriginalTextinLine(tempstem2text,stemmedterm)
-				#print stemmedterm,origontterm,origlineterm
-				if origlineterm in matched_dict:
-					matched_dict[origlineterm].append(origontterm)
-				else:
-					matched_dict[origlineterm]=origontterm
-		for x in matched_dict:
-			print len(matched_dict[x])		
-
+				for x in origontterm:
+					ontid=taoid2name[x]
+					if origlineterm in matched_dict:
+						matched_dict[origlineterm].append(ontid)
+					
+					else:
+						matched_dict[origlineterm]=ontid
+						
+		for origlineterm in matched_dict:
+			annotation=" <term> "+matched_dict[origlineterm]+" \""+origlineterm + "\" "+ "</term>"
+			replacedline=line.replace(origlineterm,annotation)
+			matched=1
+			out.write(replacedline+"\n")
+		if matched==0:
+			out.write(line+"\n")		
 
 
 
@@ -86,4 +99,5 @@ if __name__ == "__main__":
 	taoids_stem=dict()
 	ontologystems=set()
 	stem2id=dict()
+	taoid2name={}
 	main()
