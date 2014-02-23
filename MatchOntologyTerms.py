@@ -56,23 +56,25 @@ def cleanfile():
 		line=line.replace(".","")
 		line=line.replace(")","")
 		line=line.replace("(","")
-		cleanline=cleanOCR(line)
-		stop_removed=removeStopWords(cleanline)
+		stop_removed=removeStopWords(line)	
+		cleanline=cleanOCR(stop_removed)
 		w.write(cleanline+"\n")
 
 def populateStopWord():
 	global stopwords
 	f=open('./InputFiles/stopwords.txt','r')
 	for stopword in f:
-		stopwords.add(stopword)	
+		stopwords.add(stopword.strip())	
 
 
 def removeStopWords(line):
 	words=line.split(" ")
 	stopremovedline=""
 	for word in words:
-		if word not in stopwords:
+		if word.lower() not in stopwords:
 			stopremovedline=stopremovedline+" "+word
+		
+	print stopremovedline		
 	return stopremovedline
 
 def get_new_line(line, flag):
