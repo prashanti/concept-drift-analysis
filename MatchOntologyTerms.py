@@ -75,13 +75,17 @@ def removeStopWords(line):
 			stopremovedline=stopremovedline+" "+word
 	return stopremovedline
 
-
+def get_new_line(line, flag):
+    if flag == 0:
+        return ""
+    
+    return line
 
 def cleanOCR(line):
     line = line.strip()
     if line == "":
         print "case 0"
-        return "\n"
+        return ""
     special_characters = "\*<>()\[\]{}\-_=\+^\'/"
     
     
@@ -205,6 +209,7 @@ def main():
 
 if __name__ == "__main__":
 	from stemming.porter2 import stem
+	import re
 	stopwords=set()
 	taoids_stem=dict()
 	ontologystems=set()
