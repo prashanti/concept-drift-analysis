@@ -66,6 +66,7 @@ def getPageIDsforPartId():
 
 
 def main():
+	# -*- coding: utf-8 -*-
 	subjectlimit=0
 	partlimit=10
 	global titleids
@@ -88,7 +89,7 @@ def main():
 					raw = nltk.clean_html(content)
 					decoded_data = json.loads(raw)
 					for page in decoded_data['Result']['Pages']:
-						f.write(page['OcrText'].encode('utf-8').strip()+"\n")
+						f.write(page['OcrText'].strip().replace("."," . ").encode('utf-8')+"\n")
 	
 	f.write("Getting Parts which match Vertebrate in the title")
 					
@@ -101,7 +102,7 @@ def main():
 				content = urllib2.urlopen(url).read()
 				raw = nltk.clean_html(content)
 				decoded_data = json.loads(raw)
-				f.write(decoded_data['Result'].encode('utf-8'))
+				f.write(decoded_data['Result'].replace("."," . ").encode('utf-8'))
 
 
 if __name__ == "__main__":
