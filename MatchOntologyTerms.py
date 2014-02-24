@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 def stemOntologyIDs():
 	global taoid2name
 	global ontologystems
@@ -45,20 +45,49 @@ def getOriginalTextinLine(temp_dict, line):
 		origline=origline+" "+temp_dict[stem]
 	return(origline.strip())
 
-def cleanfile():
+def joinlines():
 	f=open('./InputFiles/BHLCorpus.txt','r')
+	w=open('./InputFiles/BHLCorpus_Joined.txt','w')
+	newline=""
+	for line in f:
+		words=line.split(" ")
+		for word in words:
+			if word.strip() is not ".":
+				if word.strip() is not "":
+					newline=newline+" "+word.strip()
+			else:
+				w.write(newline+"."+"\n")
+				newline=""
+
+def cleanfile():
+	f=open('./InputFiles/BHLCorpus_Joined.txt','r')
 	w=open('./InputFiles/BHLCorpus_Cleaned.txt','w')
 	populateStopWord()
+	newline=""
 	for line in f:
 		line=line.replace(":","")
+		line=line.replace("$","")
+		line=line.replace("^","")
+		line=line.replace("*","")
+		line=line.replace("|","")
+		line=line.replace("—","")
+		line=line.replace("=","")
+		line=line.replace("{","")
+		line=line.replace("}","")
 		line=line.replace("\"","")
 		line=line.replace("_","")
-		line=line.replace(".","")
+		line=line.replace("-","")
+		line=line.replace("%","")
+		line=line.replace("&","")
+		line=line.replace(",","")
+		line=line.replace(";","")
 		line=line.replace(")","")
 		line=line.replace("(","")
+		line=line.replace("."," . ")	
 		stop_removed=removeStopWords(line)	
 		cleanline=cleanOCR(stop_removed)
-		w.write(cleanline+"\n")
+		if cleanline.strip() !="":
+			w.write(cleanline+"\n")
 
 def populateStopWord():
 	global stopwords
@@ -160,13 +189,63 @@ def cleanOCR(line):
 
 
 
-def getContextVector(annotatedline,ontterm,origterm):
+def getContextVector(annotatedline,term):
+	global external
+	if term in external:
+		internal=external[term]
+	else:
+		internal={}
+
 	windowsize=5
+	contextwords=[]
+	words=annotatedline.strip().split(" ")
+	stop=0
+	beginning=0
+	for word in words:
+		if stop == 0 and word.strip()=="<term>":
+			stop=1
+			
+		if stop==0 and word.strip() !="":
+			if len(contextwords)<5 : 
+				contextwords.append(word)
+				if word in internal:
+					internal[word]=internal[word]+1
+				else:
+					internal[word]=1
+
+
+				
+			else:
+				contextwords.pop(0)
+				contextwords.append(word)
+				if word in internal:
+					internal[word]=internal[word]+1
+				else:
+					internal[word]=1
+				
+
+		if word.strip() == "</term>":
+			beginning=1
+			prevlength=len(contextwords)
+			newlength=prevlength+5
+		if beginning ==1 and word.strip() != "</term>" and word.strip() !="":
+			if len(contextwords)<newlength :
+				contextwords.append(word)
+				if word in internal:
+					internal[word]=internal[word]+1
+				else:
+					internal[word]=1
+	external[term]=internal			
+
+
+			
+
 	
 
 
 
 def main():
+	joinlines()
 	cleanfile()
 	inp=open("./InputFiles/BHLCorpus_Cleaned.txt",'r')
 	out=open("./InputFiles/BHLCorpus_Annotated.txt",'w')
@@ -191,15 +270,15 @@ def main():
 						matched_dict[origlineterm]=ontid
 						
 		for origlineterm in matched_dict:
-			annotation=" <term> "+matched_dict[origlineterm]+" \""+origlineterm + "\" "+ "</term>"
+			annotation=" <term> "+matched_dict[origlineterm] +" "+ origlineterm +" "+ "</term>"
 			matchedontologyterms.add(matched_dict[origlineterm])
 			replacedline=line.replace(origlineterm,annotation)
 			matched=1
-			out.write(replacedline+"\n")
-			getContextVector(replacedline,matched_dict[origlineterm],origlineterm)
+			out.write(replacedline)
+			getContextVector(replacedline,matched_dict[origlineterm])
 		if matched==0:
-			out.write(line+"\n")		
-
+			out.write(line)		
+	print external		
 
 
 
@@ -218,4 +297,5 @@ if __name__ == "__main__":
 	stem2id=dict()
 	taoid2name={}
 	matchedontologyterms=set()
+	external={}
 	main()
