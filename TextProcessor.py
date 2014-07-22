@@ -43,10 +43,8 @@ def process_one_line(line):
     pattern_single_integer = re.compile("^\.*\d+(\s*)$")
     if pattern_single_integer.match(line):
         p = pattern_single_integer.match(line)
-#         g1 = p.group(1)
-#         print ord(g1[0])
-#         print ord(line[-1])
-        print "case 4"
+
+        
         new_line = get_new_line(line, 0)
         return new_line
     
@@ -80,28 +78,14 @@ def process_one_line(line):
     threshold = 0.5
     shorted_line = re.sub("[^a-zA-Z\s]", "", line)
     shorted_line = shorted_line.strip()
-#     print "short: "+shorted_line
-#     print "short len: "+str(len(shorted_line))
-#     print ord(shorted_line[0])
-#     print ord(shorted_line[1])
-#     print ord(shorted_line[-1])
-#     print ord(shorted_line[-2]) 
-#     print "old: "+line
-#     print len(line)
-#     print len(shorted_line)
-     
-#     print "radio: "+str(float(len(shorted_line)) / len(line))
+
     if float(len(shorted_line)) / len(line) < threshold:
         print "case 8"
-#         print "radio: "+str(float(len(shorted_line)) / len(line))
+
         new_line = get_new_line(line, 0)
         return new_line 
     
-    print "case n"
-    
-    
-#     pattern_empty_line = line
-#     print ord(pattern_empty_line[0])
+
     return line
 
 

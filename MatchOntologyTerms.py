@@ -46,7 +46,7 @@ def getOriginalTextinLine(temp_dict, line):
 	return(origline.strip())
 
 def joinlines():
-	f=open('./InputFiles/BHLCorpus.txt','r')
+	f=open('./InputFiles/BHLCorpus_>1900.txt','r')
 	w=open('./InputFiles/BHLCorpus_Joined.txt','w')
 	newline=""
 	for line in f:
@@ -69,6 +69,7 @@ def cleanfile():
 		line=line.replace("$","")
 		line=line.replace("^","")
 		line=line.replace("*","")
+		line=line.replace("?","")
 		line=line.replace("|","")
 		line=line.replace("—","")
 		line=line.replace("=","")
@@ -101,9 +102,7 @@ def removeStopWords(line):
 	stopremovedline=""
 	for word in words:
 		if word.lower() not in stopwords:
-			stopremovedline=stopremovedline+" "+word
-		
-	print stopremovedline		
+			stopremovedline=stopremovedline+" "+word		
 	return stopremovedline
 
 def get_new_line(line, flag):
@@ -115,7 +114,7 @@ def get_new_line(line, flag):
 def cleanOCR(line):
     line = line.strip()
     if line == "":
-        print "case 0"
+        #print "case 0"
         return ""
     special_characters = "\*<>()\[\]{}\-_=\+^\'/"
     
@@ -123,19 +122,19 @@ def cleanOCR(line):
     new_line = ""
     pattern_titleID = re.compile("^\s*TitleID:\s*\d+")
     if pattern_titleID.match(line):
-        print "case 1"
+        #print "case 1"
         new_line = get_new_line(line, 0)
         return new_line
     
     pattern_itemID = re.compile("^\s*ItemID:\s*\d+")
     if pattern_itemID.match(line):
-        print "case 2"
+        #print "case 2"
         new_line = get_new_line(line, 0)
         return new_line
     
     pattern_OCR_not_available = re.compile("^\s*OCR text unavailable for this page.")
     if pattern_OCR_not_available.search(line):
-        print "case 3"
+        #print "case 3"
         new_line = get_new_line(line, 0)
         return new_line
     
@@ -151,14 +150,14 @@ def cleanOCR(line):
     #if len(line) > 2:
         #print line[-3]
     if pattern_single_word.match(line):
-        print "case 5"
+        #print "case 5"
         new_line = get_new_line(line, 0)
         return new_line
     
     # eg. "3*"
     pattern_digits_and_special_characters = re.compile("^\.*[a-zA-Z0-9"+special_characters+"]+(\s*)$")
     if pattern_digits_and_special_characters.match(line):
-        print "case 6"
+        #print "case 6"
         new_line = get_new_line(line, 0)
         return new_line
     
@@ -169,7 +168,7 @@ def cleanOCR(line):
     if pattern_words_and_whitespace.match(line) and pattern_words.search(line):
         words = re.split("\s+", line)
         if len(words) < max_len:
-            print "case 7"
+            #print "case 7"
             new_line = get_new_line(line, 0)
             return new_line
         
@@ -179,7 +178,7 @@ def cleanOCR(line):
     shorted_line = shorted_line.strip()
 
     if float(len(shorted_line)) / len(line) < threshold:
-        print "case 8"
+        #print "case 8"
 
         new_line = get_new_line(line, 0)
         return new_line 
@@ -202,6 +201,7 @@ def getContextVector(annotatedline,term):
 	stop=0
 	beginning=0
 	for word in words:
+		word=word.lower().strip()
 		if stop == 0 and word.strip()=="<term>":
 			stop=1
 			
@@ -249,6 +249,7 @@ def main():
 	cleanfile()
 	inp=open("./InputFiles/BHLCorpus_Cleaned.txt",'r')
 	out=open("./InputFiles/BHLCorpus_Annotated.txt",'w')
+	con=open("./InputFiles/BHLCorpus>1900_Context.txt",'w')
 	stemOntologyIDs()
 	tempstem2text=dict()
 	for line in inp:
@@ -278,7 +279,8 @@ def main():
 			getContextVector(replacedline,matched_dict[origlineterm])
 		if matched==0:
 			out.write(line)		
-	print external		
+	for word in external['TAO:0001189']:
+		print word+":"+str(external['TAO:0001189'][word])
 
 
 
