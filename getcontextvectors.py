@@ -12,12 +12,32 @@ def getuberonnames():
 	for line in infile:
 		names[line.split("\t")[0]]=line.split("\t")[1].strip()
 	return names
+def expandcontextvectors(beforewords,afterwords,contextdirectory):
+	for contextfile in contextdirectory:
+		filein=open(contextdirectory+contextfile)
+		contextdict = json.load(filein)
+		if "Before" in contextfile:
+			for term in contextdirectory:
+				for word in beforewords:
+					if term not in word:
+						contextdict[term][word]=0
+		if "After" in contextfile:
+			for term in contextdirectory:
+				for word in afterwords:
+					if term not in word:
+						contextdict[term][word]=0
+
+		filein.close()
+		fileout=open(contextdirectory+contextfile,'w')
+		json.dump(contextdict, fileout)
+
+
 def main():
 	uberonnames=getuberonnames()
 	directory=sys.argv[1]
-	aftercontext=dict()
-	beforecontext=dict()
 	windowsize=5
+	totalbeforevectors=0
+	totalaftervectors=0
 	contextdirectory=directory+"ContextVectors/"
 	if not os.path.exists(contextdirectory):
 		os.makedirs(contextdirectory)
@@ -25,9 +45,13 @@ def main():
 	for filename in os.listdir(directory):
 		if "Annotations" in filename:
 			print filename
+			aftercontext=dict()
+			beforecontext=dict()
 			infile=open(directory+filename,'r')
 			beforecontextfile=open(contextdirectory+(filename.replace("Annotations_","BeforeContextVectors_").replace(".clean","")),'w')
 			aftercontextfile=open(contextdirectory+(filename.replace("Annotations_","AfterContextVectors_").replace(".clean","")),'w')		
+			afterwords=set()
+			beforewords=set()
 			for line in infile:
 				termsinline=set()
 				line=line.replace("<term>","")
@@ -46,8 +70,7 @@ def main():
 						beforecontext[term]=dict()
 					name=uberonnames[term].strip()
 					length=len(name.split())
-					afterwords=set()
-					beforewords=set()
+
 
 					numofwordsafter=len(tokenizedtext.tokens)-max(c.offsets(term))-1-length
 					numofwordsbefore=min(c.offsets(term))
@@ -79,14 +102,16 @@ def main():
 								else:
 									beforecontext[term][word]=1								
 								beforewords.add(word)
-			
-			#print dictionaries to file
-			
+			totalbeforevectors+=len(beforecontext)
+			totalaftervectors+=len(aftercontext)
 			json.dump(beforecontext, beforecontextfile)
 			json.dump(aftercontext,aftercontextfile)
 			infile.close()
 			beforecontextfile.close()
 			aftercontextfile.close()
+
+	print "Total Number of Before Vectors",totalbeforevectors
+	print "Total Number of After Vectors", totalaftervectors
 
 
 
