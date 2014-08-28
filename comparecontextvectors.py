@@ -12,14 +12,15 @@ def consolidatevectors(vec1,vec2):
 	numerator=0
 	denom1=0
 	denom2=0
+
 	for word in sorted(vec1, key=lambda key: key):
+		print word,vec1[word],vec2[word]
 		numerator=numerator+(vec1[word]*vec2[word])
-		denom1=denom1+vec1[word] ** 2
-		denom2=denom1+vec2[word] ** 2
-	print denom1,denom2
+		denom1=denom1+(vec1[word] ** 2)
+		denom2=denom2+(vec2[word] ** 2)
+		
 	denominator=math.sqrt(denom1)*math.sqrt(denom2)
 	cosinesimilarity=float(numerator)/float(denominator)
-	print numerator,denominator
 	return cosinesimilarity
 
 
@@ -27,8 +28,8 @@ def main():
 	contextdirectory=sys.argv[1]
 	compcontextvector=dict()
 	groups=[]
-	print consolidatevectors({"anterior": 5, "villiform": 2, "plate": 2},{"anterior":4, "wolffish": 2})
-	sys.exit()
+	
+	
 	for contextfile in os.listdir(contextdirectory):
 		if "Context" in contextfile:
 
@@ -49,9 +50,9 @@ def main():
 		for term in compcontextvector[previous]:
 			if term in compcontextvector[current]:
 				similarity=consolidatevectors(compcontextvector[previous][term],compcontextvector[current][term])
-				#print previous,current,term,similarity
+				print previous,current,term,similarity
 		i+=1
-		
+	#print consolidatevectors({"anterior": 5, "villiform": 2, "plate": 2},{"anterior":4, "wolffish": 2})	
 		
 
 
