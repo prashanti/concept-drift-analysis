@@ -14,7 +14,6 @@ def consolidatevectors(vec1,vec2):
 	denom2=0
 
 	for word in sorted(vec1, key=lambda key: key):
-		print word,vec1[word],vec2[word]
 		numerator=numerator+(vec1[word]*vec2[word])
 		denom1=denom1+(vec1[word] ** 2)
 		denom2=denom2+(vec2[word] ** 2)
@@ -28,7 +27,8 @@ def main():
 	contextdirectory=sys.argv[1]
 	compcontextvector=dict()
 	groups=[]
-	
+	termsseen=set()
+	simscorefile=open(contextdirectory+"SimilarityScores.txt",'w')
 	
 	for contextfile in os.listdir(contextdirectory):
 		if "Context" in contextfile:
@@ -41,19 +41,29 @@ def main():
 				compcontextvector[year]=dict()
 				compcontextvector[year]=contextdict
 			infile.close()
-	consolidatevectors(compcontextvector["1768_1866"]["UBERON:0008258"],compcontextvector["1867_1886"]["UBERON:0008258"])
+	
 	i=0
 	while i<len(groups)-1:
-		previous=groups[i]
-		current=groups[i+1]
-		print previous,current
-		for term in compcontextvector[previous]:
-			if term in compcontextvector[current]:
-				similarity=consolidatevectors(compcontextvector[previous][term],compcontextvector[current][term])
-				print previous,current,term,similarity
+		current=groups[i]
+		future=groups[i+1]
+		termsseen=set.union(termsseen, set(compcontextvector[current].keys()))
+		print "Terms in ",current,len(compcontextvector[current])
+		print "Terms in ",future,len(compcontextvector[future])
+		missingKeys=set(compcontextvector[current].keys())-set(compcontextvector[future].keys())
+		print "Terms lost in ",future,len(missingKeys)
+
+		missingKeys=set(compcontextvector[future].keys())-termsseen
+		print "Terms introduced in ",current,len(missingKeys)
+		termsseen=set.union(termsseen, set(compcontextvector[future].keys()))
+		common=set.intersection(set(compcontextvector[future].keys()),set(compcontextvector[current].keys()))
+		print "Terms common in ",current,future,len(common)
+		print "\n\n\n"
+		for term in compcontextvector[current]:
+			if term in compcontextvector[future]:
+				similarity=consolidatevectors(compcontextvector[current][term],compcontextvector[future][term])
+				simscorefile.write(current+"\t"+future+"\t"+term+"\t"+str(similarity))
 		i+=1
-	#print consolidatevectors({"anterior": 5, "villiform": 2, "plate": 2},{"anterior":4, "wolffish": 2})	
-		
+	
 
 
 
