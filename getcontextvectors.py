@@ -12,32 +12,14 @@ def getuberonnames():
 	for line in infile:
 		names[line.split("\t")[0]]=line.split("\t")[1].strip()
 	return names
-def expandcontextvectors(beforewords,afterwords,contextdirectory):
-	for contextfile in contextdirectory:
-		filein=open(contextdirectory+contextfile)
-		contextdict = json.load(filein)
-		if "Before" in contextfile:
-			for term in contextdirectory:
-				for word in beforewords:
-					if term not in word:
-						contextdict[term][word]=0
-		if "After" in contextfile:
-			for term in contextdirectory:
-				for word in afterwords:
-					if term not in word:
-						contextdict[term][word]=0
 
-		filein.close()
-		fileout=open(contextdirectory+contextfile,'w')
-		json.dump(contextdict, fileout)
 
 
 def main():
 	uberonnames=getuberonnames()
 	directory=sys.argv[1]
 	windowsize=5
-	totalbeforevectors=0
-	totalaftervectors=0
+
 	contextdirectory=directory+"ContextVectors/"
 	if not os.path.exists(contextdirectory):
 		os.makedirs(contextdirectory)
@@ -45,13 +27,11 @@ def main():
 	for filename in os.listdir(directory):
 		if "Annotations" in filename:
 			print filename
-			aftercontext=dict()
-			beforecontext=dict()
+			context=dict()
 			infile=open(directory+filename,'r')
-			beforecontextfile=open(contextdirectory+(filename.replace("Annotations_","BeforeContextVectors_").replace(".clean","")),'w')
-			aftercontextfile=open(contextdirectory+(filename.replace("Annotations_","AfterContextVectors_").replace(".clean","")),'w')		
-			afterwords=set()
-			beforewords=set()
+			contextfile=open(contextdirectory+(filename.replace("Annotations_","").replace(".clean","").replace(".txt","-ContextVectors.txt")),'w')
+			
+			
 			for line in infile:
 				termsinline=set()
 				line=line.replace("<term>","")
@@ -64,10 +44,8 @@ def main():
 						termsinline.add(term)
 				
 				for term in termsinline:
-					if term not in aftercontext:
-						aftercontext[term]=dict()
-					if term not in beforecontext:
-						beforecontext[term]=dict()
+					if term not in context:
+						context[term]=dict()
 					name=uberonnames[term].strip()
 					length=len(name.split())
 
@@ -82,11 +60,11 @@ def main():
 					while i<=windowsize+length:
 						for word in  [tokenizedtext.tokens[offset+i] for offset in c.offsets(term)]:
 							if "UBERON" not in word and word.strip() != "":
-								if word in aftercontext[term]:
-									aftercontext[term][word]=aftercontext[term][word]+1
+								if word in context[term]:
+									context[term][word]=context[term][word]+1
 								else:
-									aftercontext[term][word]=1
-								afterwords.add(word)
+									context[term][word]=1
+								
 
 						i+=1
 
@@ -97,21 +75,19 @@ def main():
 					for i in range(1,windowsize+1):
 						for word in  [tokenizedtext.tokens[offset-i] for offset in c.offsets(term)]:
 							if "UBERON" not in word and word.strip() != "":
-								if word in beforecontext[term]:
-									beforecontext[term][word]=beforecontext[term][word]+1
+								if word in context[term]:
+									context[term][word]=context[term][word]+1
 								else:
-									beforecontext[term][word]=1								
-								beforewords.add(word)
-			totalbeforevectors+=len(beforecontext)
-			totalaftervectors+=len(aftercontext)
-			json.dump(beforecontext, beforecontextfile)
-			json.dump(aftercontext,aftercontextfile)
+									context[term][word]=1								
+								
+			
+			json.dump(context, contextfile)
+			
 			infile.close()
-			beforecontextfile.close()
-			aftercontextfile.close()
+			contextfile.close()
+		
 
-	print "Total Number of Before Vectors",totalbeforevectors
-	print "Total Number of After Vectors", totalaftervectors
+
 
 
 
