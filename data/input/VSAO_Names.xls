@@ -1,0 +1,273 @@
+CARO:0000000	anatomical entity
+CARO:0000003	anatomical structure
+CARO:0000004	portion of organism substance
+CARO:0000005	anatomical space
+CARO:0000006	material anatomical entity
+CARO:0000007	immaterial anatomical entity
+CARO:0000008	anatomical line
+CARO:0000009	anatomical point
+CARO:0000010	anatomical surface
+CARO:0000011	anatomical system
+CARO:0000012	multi-cellular organism
+CARO:0000013	cell
+CARO:0000014	cell component
+CARO:0000019	compound organ component
+CARO:0000021	simple organ
+CARO:0000024	compound organ
+CARO:0000027	male organism
+CARO:0000028	female organism
+CARO:0000029	hermaphroditic organism
+CARO:0000030	asexual organism
+CARO:0000032	organism subdivision
+CARO:0000040	acellular anatomical structure
+CARO:0000041	anatomical cluster
+CARO:0000042	extraembryonic structure
+CARO:0000043	tissue
+CARO:0000045	sequential hermaphroditic organism
+CARO:0000046	synchronous hermaphroditic organism
+CARO:0000048	gonochoristic organism
+CARO:0000049	protandrous hermaphroditic organism
+CARO:0000050	protogynous hermaphroditic organism
+CARO:0000054	anatomical group
+CARO:0000055	multi-tissue structure
+CARO:0000062	cell space
+CARO:0000063	portion of cell substance
+CARO:0000064	single cell organism
+CARO:0000065	basal lamina
+CARO:0000066	epithelium
+CARO:0000067	simple cuboidal epithelium
+CARO:0000068	simple columnar epithelium
+CARO:0000069	multilaminar epithelium
+CARO:0000070	simple squamous epithelium
+CARO:0000071	atypical epithelium
+CARO:0000072	cavitated compound organ
+CARO:0000073	unilaminar epithelium
+CARO:0000074	solid compound organ
+CARO:0000077	epithelial cell
+CARO:0001000	multi-cell-component structure
+CARO:0001001	neuron projection bundle
+CARO:0001500	neuron projection bundle segment
+CARO:0001501	neuron projection bundle subsegment
+CL:0000003	native cell
+CL:0000008	migratory cranial neural crest cell
+CL:0000055	non-terminally differentiated cell
+CL:0000058	chondroblast
+CL:0000059	ameloblast
+CL:0000060	odontoblast
+CL:0000061	cementoblast
+CL:0000062	osteoblast
+CL:0000134	mesenchymal cell
+CL:0000137	osteocyte
+CL:0000138	chondrocyte
+CL:0000140	odontocyte
+CL:0000141	cementocyte
+CL:0000151	secretory cell
+CL:0000222	mesodermal cell
+CL:0000333	migratory neural crest cell
+CL:0000742	periarticular chondrocyte
+CL:0000743	hypertrophic chondrocyte
+CL:0001035	bone cell
+CL:0001039	terminally differentiated osteoblast
+CL:0001040	non-terminally differentiated osteoblast
+CL:0002320	connective tissue cell
+CL:0002321	embryonic cell
+CL:0007000	preameloblast
+CL:0007001	skeletogenic cell
+CL:0007002	precementoblast
+CL:0007003	preodontoblast
+CL:0007004	premigratory neural crest cell
+CL:0007005	notochordal cell
+CL:0007006	chordamesodermal cell
+CL:0007007	notochordal sheath cell
+CL:0007008	notochordal vacuole cell
+CL:0007009	prechondroblast
+CL:0007010	preosteoblast
+CL:0007012	non-terminally differentiated odontoblast
+CL:0007013	terminally differentiated odontoblast
+GO:0001503	ossification
+GO:0001649	osteoblast differentiation
+GO:0001957	intramembranous ossification
+GO:0001958	endochondral ossification
+GO:0008150	biological_process
+GO:0030282	bone mineralization
+GO:0031214	biomineral tissue development
+GO:0032940	secretion by cell
+GO:0035630	bone mineralization involved in bone maturation
+GO:0036072	direct ossification
+GO:0036073	perichondral ossification
+GO:0036074	metaplastic ossification
+GO:0036075	replacement ossification
+GO:0036076	ligamentous ossification
+GO:0036077	intratendonous ossification
+GO:0043931	ossification involved in bone maturation
+GO:0060348	bone development
+GO:0060349	bone morphogenesis
+GO:0060350	endochondral bone morphogenesis
+GO:0070977	bone maturation
+PATO:0000001	quality
+PATO:0001448	ossified
+PATO:0001449	cartilaginous
+VSAO:0000000	cartilage element
+VSAO:0000001	surface structure
+VSAO:0000003	permanent cartilage
+VSAO:0000006	cell condensation
+VSAO:0000013	mineralized tissue
+VSAO:0000015	skeletal tissue
+VSAO:0000017	connective tissue
+VSAO:0000020	mineralized extracellular matrix
+VSAO:0000021	proteinaceous extracellular matrix
+VSAO:0000022	extracellular matrix
+VSAO:0000023	membrane bone
+VSAO:0000025	odontogenic papilla
+VSAO:0000026	skeleton
+VSAO:0000027	skeletal system
+VSAO:0000028	integumentary papilla
+VSAO:0000029	integument
+VSAO:0000030	oropharyngeal papilla
+VSAO:0000031	musculoskeletal system
+VSAO:0000032	notochord
+VSAO:0000033	muscular system
+VSAO:0000034	oropharynx
+VSAO:0000035	dermal skeleton
+VSAO:0000036	perichondrium
+VSAO:0000037	endoskeleton
+VSAO:0000040	cartilage tissue
+VSAO:0000042	skeletal subdivision
+VSAO:0000046	osteoid
+VSAO:0000047	bone tissue
+VSAO:0000048	scale
+VSAO:0000049	cranial skeleton
+VSAO:0000050	dense regular connective tissue
+VSAO:0000051	lepidosteoid scale
+VSAO:0000052	ganoid scale
+VSAO:0000053	vacuolated notochordal tissue
+VSAO:0000054	perichordal tissue
+VSAO:0000055	polypteroid scale
+VSAO:0000056	axial skeleton
+VSAO:0000057	bone element
+VSAO:0000059	avascular GAG-rich matrix
+VSAO:0000062	cementum
+VSAO:0000063	odontoid tissue
+VSAO:0000065	enamel
+VSAO:0000066	pre-enamel
+VSAO:0000067	paired appendage
+VSAO:0000069	dentine
+VSAO:0000070	elasmoid scale
+VSAO:0000071	pre-dentine
+VSAO:0000072	ligament
+VSAO:0000073	tendon
+VSAO:0000074	palaeoniscoid scale
+VSAO:0000075	appendage
+VSAO:0000076	appendicular skeleton
+VSAO:0000077	non-mineralized chondroid tissue
+VSAO:0000078	chondroid tissue
+VSAO:0000079	odontode scale
+VSAO:0000080	keratin-based scale
+VSAO:0000081	cosmoid scale
+VSAO:0000082	craniofacial skeleton
+VSAO:0000083	craniofacial region
+VSAO:0000086	secondary cartilage tissue
+VSAO:0000087	cosmine
+VSAO:0000088	mineralized cartilage tissue
+VSAO:0000089	non-mineralized cartilage tissue
+VSAO:0000090	integumentary skeleton
+VSAO:0000091	elastic cartilage tissue
+VSAO:0000092	chondrogenic condensation
+VSAO:0000093	postcranial axial skeleton
+VSAO:0000094	hyaline cartilage tissue
+VSAO:0000097	orthodentine
+VSAO:0000099	fin
+VSAO:0000101	joint
+VSAO:0000102	osteodentine
+VSAO:0000103	fibrocartilage
+VSAO:0000104	ganoine
+VSAO:0000105	limiting layer of elasmoid scale
+VSAO:0000106	vasodentine
+VSAO:0000107	elasmodine
+VSAO:0000108	non-mineralized hyaline cartilage tissue
+VSAO:0000109	mineralized hyaline cartilage tissue
+VSAO:0000110	columnar chondrocyte
+VSAO:0000111	paired fin
+VSAO:0000113	enameloid
+VSAO:0000114	pre-enameloid
+VSAO:0000115	mineralized bone tissue
+VSAO:0000118	cellular bone tissue
+VSAO:0000119	non-mineralized avascular GAG-rich matrix
+VSAO:0000120	mineralized avascular GAG-rich matrix
+VSAO:0000121	free limb
+VSAO:0000122	acellular bone tissue
+VSAO:0000123	odontode tissue
+VSAO:0000125	pectoral appendage
+VSAO:0000126	pelvic appendage
+VSAO:0000127	gastralium
+VSAO:0000128	skeletal element
+VSAO:0000129	pelvic fin
+VSAO:0000130	dermal bone
+VSAO:0000131	appendicular ossicle
+VSAO:0000132	ossicle
+VSAO:0000133	axial ossicle
+VSAO:0000134	ossified tendon
+VSAO:0000135	replacement element
+VSAO:0000137	sesamoid
+VSAO:0000138	ligamentous replacement element
+VSAO:0000139	endochondral element
+VSAO:0000145	endochondral bone
+VSAO:0000146	transient cartilaginous element
+VSAO:0000147	pectoral fin
+VSAO:0000148	forelimb
+VSAO:0000149	pharyngeal arch
+VSAO:0000150	hindlimb
+VSAO:0000151	forelimb skeleton
+VSAO:0000152	hindlimb skeleton
+VSAO:0000153	pectoral fin skeleton
+VSAO:0000154	pelvic fin skeleton
+VSAO:0000155	pelvic girdle skeleton
+VSAO:0000156	pectoral girdle skeleton
+VSAO:0000157	scapula
+VSAO:0000158	coracoid
+VSAO:0000159	ossified ligament
+VSAO:0000160	anocleithrum
+VSAO:0000161	interclavicle
+VSAO:0000162	median fin
+VSAO:0000163	anal fin
+VSAO:0000164	caudal fin
+VSAO:0000165	dorsal fin
+VSAO:0000166	anal fin skeleton
+VSAO:0000167	caudal fin skeleton
+VSAO:0000168	dorsal fin skeleton
+VSAO:0000169	paired fin skeleton
+VSAO:0000170	median fin skeleton
+VSAO:0000171	scapular complex
+VSAO:0000172	lepidotrichium
+VSAO:0000173	pelvic fin lepidotrichium
+VSAO:0000174	caudal fin lepidotrichium
+VSAO:0000175	pectoral fin lepidotrichium
+VSAO:0000176	anal fin lepidotrichium
+VSAO:0000177	dorsal fin lepidotrichium
+VSAO:0000178	embryonic structure
+VSAO:0000179	fin bud
+VSAO:0000180	process
+VSAO:0000181	articular system
+VSAO:0000182	suprabranchial fin
+VSAO:0000183	vertebral centrum
+VSAO:0000184	vertebral element
+VSAO:0000185	vertebral column
+VSAO:0000186	femur
+VSAO:0000213	pectoral appendage/girdle complex
+VSAO:0000214	appendage/girdle complex
+VSAO:0000215	pelvic appendage/girdle complex
+VSAO:0000300	free limb skeleton
+VSAO:0000301	limb/fin skeleton
+VSAO:0000302	girdle skeleton
+VSAO:0000303	appendage girdle region
+VSAO:0000304	pelvic girdle region
+VSAO:0000305	pectoral girdle region
+VSAO:0000306	appendicular skeletal system
+VSAO:0000307	perichordal bone
+VSAO:0000308	perichondral bone
+VSAO:0005007	stylopodial skeleton
+VSAO:0005010	zeugopodial skeleton
+VSAO:0005019	autopodial skeleton
+VSAO:0005022	mesopodial skeleton
+VSAO:0005025	metapodial skeleton
+VSAO:0005028	acropodial skeleton
