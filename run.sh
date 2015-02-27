@@ -21,7 +21,7 @@ python groupyearly.py ../data/Corpus/ ../data/CleanedCorpus/
 python checkocrquality.py /Users/pmanda/Documents/eolbhl_hackathon/data/ScoredCorpus/HighQualityYearlyCorpora/ ../data/Stats_Graph/OCRScores_YearlyHighQuality.txt
 
 # annotate high quality yearly corpora
-python anntatetext.py ../data/ScoredCorpus/HighQualityYearlyCorpora/ UBERON
+python annotatetext.py ../data/ScoredCorpus/HighQualityYearlyCorpora/ UBERON
 
 # create comprehensive distribution 
 python createcompdist.py ../data/UBERONDistributionsExact/
