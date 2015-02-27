@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 def getTitleIDs():
 	global titleids
-	inp=open('./NewInputs/title_parsed.txt','r')
+	inp=open('../data/input/title_parsed.txt','r')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -11,7 +11,7 @@ def getTitleIDs():
 
 def populateyear():
 	global titleid2year
-	inp=open('./NewInputs/title_parsed.txt','r')
+	inp=open('../data/input/title_parsed.txt','r')
 	for line in inp:
 		#TitleID	FullTitle	StartYear	LanguageCode
 		data=line.split("\t")
@@ -24,7 +24,7 @@ def getItemIDs():
 	global titleids
 	global itemids_dict
 	global itemid2year
-	inp=open('./NewInputs/item_parsed.txt','r')
+	inp=open('../data/input/item_parsed.txt','r')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -41,7 +41,7 @@ def getItemIDs():
 
 def getVertebrateTitleIDs():
 	global vertebratetitleids
-	inp=open('./NewInputs/subject.txt','r')
+	inp=open('../data/input/subject.txt','r')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -53,7 +53,7 @@ def getVertebrateTitleIDs():
 			if ("Vertebrate" in subject or "vertebrate" in subject):
 				vertebratetitleids.add(titleid.strip())
 	inp.close()
-	inp=open('./NewInputs/title_parsed.txt')
+	inp=open('../data/input/title_parsed.txt')
 	for line in inp:
 		if "TitleID" not in line:
 			data=line.split("\t")
@@ -71,7 +71,7 @@ def getVertebratePartIDs():
 	global vertebratepartids
 	global itemid2year
 	global partid2year
-	inp=open('./NewInputs/part_parsed.txt','r')	
+	inp=open('../data/input/part_parsed.txt','r')	
 	for line in inp:
 		if "PartID" not in line:
 			data=line.split("\t")
@@ -128,35 +128,34 @@ def main():
 					if year == "":
 						year=titleid2year[titleid]
 					if year !="":
-						inputfile="./NewInputs/BHLCorpus_"+year+".txt"
+						inputfile="../data/Corpus/Corpus_"+titleid+"_"+item+"_year_"+year+".txt"
 						print "inputfile",inputfile
 						outfile=open(inputfile,'a')
 						outfile.write("TitleID:  "+str(titleid)+"\n")
 						outfile.write("ItemID:  "+str(item)+"\n")
-						#subjectlimit=subjectlimit-1
 						
 						url="http://www.biodiversitylibrary.org/api2/httpquery.ashx?op=GetItemMetadata&itemid="+item.strip()+"&pages=t&ocr=t&parts=f&apikey=8c118b05-3e6e-4ef2-92c5-78610a868a14&format=json"
 						content = urllib2.urlopen(url).read()
 						raw = nltk.clean_html(content)
 						if raw != "":
 							decoded_data = simplejson.loads(raw)
-							for page in decoded_data['Result']['Pages']:
-								outfile.write(page['OcrText'].strip().replace("."," . ").encode('utf-8')+"\n")
+							if decoded_data['Result'] is not None:
+								if decoded_data['Result']['Pages'] is not None:
+									for page in decoded_data['Result']['Pages']:
+										outfile.write(page['OcrText'].strip().replace("."," . ").encode('utf-8')+"\n")
 						outfile.close()
 	
 # need year for partID.					
 	print "Number of Vertebrate PartIDs ",len(vertebratepartid2pageids_dict)
 	for partid in vertebratepartid2pageids_dict:
-		inputfile="./NewInputs/BHLCorpus_"+str(partid2year[partid])+".txt"
+		inputfile="../data/Corpus/Corpus_"+partid+"_year_"+ str(partid2year[partid])+".txt"
 		print "file",inputfile
 		outfile=open(inputfile,'a')
 		outfile.write("PartID:  "+str(partid)+"\n")
 		for pageid in vertebratepartid2pageids_dict[partid]:
 			
 			url ="http://www.biodiversitylibrary.org/api2/httpquery.ashx?op=GetPageOcrText&pageid="+str(pageid)+"&apikey=8c118b05-3e6e-4ef2-92c5-78610a868a14&format=json"
-			print "2Downloading"
 			content = urllib2.urlopen(url).read()
-			print "Done"
 			raw = nltk.clean_html(content)
 			decoded_data = simplejson.loads(raw)
 			outfile.write(decoded_data['Result'].replace("."," . ").encode('utf-8'))
